@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-245D-A1ED-9EE2-165D928ED14A">
+	<DocumentID>00505601-245D-A1ED-9EE2-165D928E914A</DocumentID>
+	<Name>00505601-245D-A1ED-9EE2-165D928E914A</Name>
+	<Description>Modify start date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T08:22:26.453</CreationDate>
+	<Notes/>
+	<DefaultText>Modify start date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B93114A"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-245D-A1ED-9EE2-165D928F114A"
+		/>
+	</Translations>
+</TextIdentifier>

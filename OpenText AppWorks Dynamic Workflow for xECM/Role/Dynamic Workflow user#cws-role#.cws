@@ -1,0 +1,26 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="00505601-245D-A1ED-9EE1-5308C7DD514A">
+	<DocumentID>00505601-245D-A1ED-9EE1-5308C7DD114A</DocumentID>
+	<Name>Dynamic Workflow user</Name>
+	<Description>Dynamic Workflow user</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T08:01:59.745</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="00505601-245D-A1ED-9EE1-5308C7DED14A"
+		/>
+		<uri
+			id="00505601-245D-A1ED-9EE1-05A69A04114A"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

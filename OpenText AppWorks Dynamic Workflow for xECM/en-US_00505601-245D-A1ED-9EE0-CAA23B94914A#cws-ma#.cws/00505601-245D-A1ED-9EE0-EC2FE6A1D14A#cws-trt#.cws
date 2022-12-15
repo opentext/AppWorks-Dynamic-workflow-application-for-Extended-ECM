@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-245D-A1ED-9EE0-EC2FE6A2114A">
+	<DocumentID>00505601-245D-A1ED-9EE0-EC2FE6A1D14A</DocumentID>
+	<Name>00505601-245D-A1ED-9EE0-EC2FE6A1D14A</Name>
+	<Description>Previous step</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T07:48:46.791</CreationDate>
+	<Notes/>
+	<Text>Previous step</Text>
+	<Language>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B94114A"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-245D-A1ED-9EE0-EC2FE6A1514A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

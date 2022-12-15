@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A02914A">
+	<DocumentID>00505601-245D-A1ED-9EE1-05A69A02514A</DocumentID>
+	<Name>Workflow Template Administrator in OpenText Entity Workflow Template Components</Name>
+	<Description>Workflow Template Administrator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T07:59:50.602</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Workflow Template Administrator</CommonName>
+	<DistinguishedName>cn=Workflow Template Administrator,cn=OpenText Entity Workflow Template Components,cn=cordys,cn=awp224,o=lab.opentext.com</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A02114A">
+			<DocumentID>00505601-245D-A1ED-9EE1-05A69A01D14A</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-12-14T07:59:50.602</CreationDate>
+			<Notes/>
+			<ArtifactID>58A0233C-8C8B-A1ED-8CA1-8426B87543B0</ArtifactID>
+			<CAPID>207918d6-ae29-a1ec-8836-9cc005ca8434</CAPID>
+			<CAPName>OpenText Entity Workflow Template Components</CAPName>
+			<CAPVersion>ver22.4build13</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

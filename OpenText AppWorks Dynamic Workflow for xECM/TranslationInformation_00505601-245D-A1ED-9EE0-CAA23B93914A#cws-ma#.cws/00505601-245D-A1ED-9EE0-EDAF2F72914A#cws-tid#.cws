@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-245D-A1ED-9EE0-EDAF2F72D14A">
+	<DocumentID>00505601-245D-A1ED-9EE0-EDAF2F72914A</DocumentID>
+	<Name>00505601-245D-A1ED-9EE0-EDAF2F72914A</Name>
+	<Description>Parent Source Instance Id</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T07:48:46.738</CreationDate>
+	<Notes/>
+	<DefaultText>Parent Source Instance Id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B93114A"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-245D-A1ED-9EE0-EDAF2F73114A"
+		/>
+	</Translations>
+</TextIdentifier>
