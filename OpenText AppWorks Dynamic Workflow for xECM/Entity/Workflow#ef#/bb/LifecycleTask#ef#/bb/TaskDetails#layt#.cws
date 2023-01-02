@@ -18,7 +18,25 @@
 	<LayoutPanelType>FitToScreen</LayoutPanelType>
 	<LayoutType>0</LayoutType>
 	<ShowFirstTab>false</ShowFirstTab>
-	<ActionBarAssociations/>
+	<ActionBarAssociations>
+		<ActionBarAssociation
+			type="com.cordys.entity.buildingblocks.layout.ActionBarAssociation"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A2A3-172DCFEC5601">
+			<DocumentID>84A93862-1D74-A1ED-A2A3-172DCFEC1601</DocumentID>
+			<Name>Actions_SelectedActionBar</Name>
+			<Description>Taskactions</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-02T11:08:37.615</CreationDate>
+			<Notes/>
+			<DisplayName>Taskactions</DisplayName>
+			<ModelerId>b7fbec27e4e391683ca20badcd50a7d2</ModelerId>
+			<ActionBar>
+				<uri
+					id="00505601-245D-A1ED-9EE1-EF8A7DD2D14A"
+				/>
+			</ActionBar>
+		</ActionBarAssociation>
+	</ActionBarAssociations>
 	<BuildingBlock>
 		<uri
 			id="00505601-245D-A1ED-9EE0-EC2FE6C6514A"
@@ -74,12 +92,16 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-12-14T08:40:52.142</CreationDate>
 			<Notes/>
-			<Definition>{&quot;sourceId&quot;:&quot;A68E0CD3E6914C42AF7F1352FC5884D1&quot;,&quot;sourceName&quot;:&quot;Actions&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;imageQualifiedName&quot;:null,&quot;dockPanel&quot;:true,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;ActionsPanel&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:&quot;0&quot;}]}</Definition>
+			<Definition>{&quot;sourceId&quot;:&quot;A68E0CD3E6914C42AF7F1352FC5884D1&quot;,&quot;sourceName&quot;:&quot;Actions&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;imageQualifiedName&quot;:null,&quot;dockPanel&quot;:true,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;00505601245DA1ED9EE1EF8A7DD2D14A&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:null}]}</Definition>
 			<DisplayName>Actions</DisplayName>
 			<ModelerId>272a86cfd02f5d66dbdeece5a894b49f</ModelerId>
 			<SourceId>A68E0CD3E6914C42AF7F1352FC5884D1</SourceId>
 			<SourceName>Actions</SourceName>
-			<ActionBarAssociation/>
+			<ActionBarAssociation>
+				<uri
+					id="84A93862-1D74-A1ED-A2A3-172DCFEC1601"
+				/>
+			</ActionBarAssociation>
 			<CustomScript/>
 			<FormAssociation/>
 			<IHubPanelConfiguration/>

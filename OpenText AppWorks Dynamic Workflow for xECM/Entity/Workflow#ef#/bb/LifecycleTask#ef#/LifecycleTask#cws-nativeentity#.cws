@@ -5742,6 +5742,27 @@
 										/>
 									</TaskTypeEnum>
 								</Mapping>
+								<Mapping
+									type="com.cordys.entity.buildingblocks.taskconfigurations.Mapping"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A2A3-172DCFEDD601">
+									<DocumentID>84A93862-1D74-A1ED-A2A3-172DCFED9601</DocumentID>
+									<Name>Untitled Mapping (2)</Name>
+									<Description>Untitled Mapping (2)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-02T10:58:44.188</CreationDate>
+									<Notes/>
+									<TaskAction>
+										<uri
+											id="00505601-245D-A1ED-9EE0-EDAF2FE5914A"
+										/>
+									</TaskAction>
+									<TaskLayout/>
+									<TaskTypeEnum>
+										<uri
+											id="00505601-245D-A1ED-9EE2-832C61BC514A"
+										/>
+									</TaskTypeEnum>
+								</Mapping>
 							</Mappings>
 						</MappingConfiguration>
 					</MappingConfiguration>
