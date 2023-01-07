@@ -7209,6 +7209,47 @@
 									</identity>
 									<rights/>
 								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3A3-383528D6D603">
+									<DocumentID>84A93862-1D74-A1ED-A3A3-383528D69603</DocumentID>
+									<Name>84A93862-1D74-A1ED-A3A3-383528D69603</Name>
+									<Description>84A93862-1D74-A1ED-A3A3-383528D69603</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T13:52:54.294</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="84A93862-1D74-A1ED-A3A0-28807B4D1603"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3A3-383528D61603">
+											<DocumentID>84A93862-1D74-A1ED-A3A3-383528D5D603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3A3-383528D5D603</Name>
+											<Description>84A93862-1D74-A1ED-A3A3-383528D5D603</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-01-07T13:52:54.294</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="a6240594-3cc7-455f-a71a-94c13251b778"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
 							</accesscontrolentries>
 							<accesscontrollists>
 								<AccessControlList

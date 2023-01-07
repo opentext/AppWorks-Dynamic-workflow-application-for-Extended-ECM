@@ -628,13 +628,17 @@
 					<CreatedBy>sysadmin</CreatedBy>
 					<CreationDate>2022-12-14T07:48:46.796</CreationDate>
 					<Notes/>
-					<ApplyInstanceRole>false</ApplyInstanceRole>
+					<ApplyInstanceRole>true</ApplyInstanceRole>
 					<BuildingBlock>
 						<uri
 							id="00505601-245D-A1ED-9EE0-EC2FE676114A"
 						/>
 					</BuildingBlock>
-					<Role/>
+					<Role>
+						<uri
+							id="84A93862-1D74-A1ED-A399-8DA0EA1DD603"
+						/>
+					</Role>
 					<SharingBuildingBlock/>
 				</DynamicWorkflowInstance>
 			</DynamicWorkflowInstance>
@@ -2592,12 +2596,12 @@
 										</ApplicableRight>
 										<ApplicableRight
 											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="84A93862-1D74-A1ED-A399-8DA0EA231603">
-											<DocumentID>84A93862-1D74-A1ED-A399-8DA0EA22D603</DocumentID>
-											<Name>84A93862-1D74-A1ED-A399-8DA0EA22D603</Name>
-											<Description>84A93862-1D74-A1ED-A399-8DA0EA22D603</Description>
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-40233E305603">
+											<DocumentID>84A93862-1D74-A1ED-A3A0-40233E301603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3A0-40233E301603</Name>
+											<Description>84A93862-1D74-A1ED-A3A0-40233E301603</Description>
 											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-07T08:39:17.609</CreationDate>
+											<CreationDate>2023-01-07T13:09:22.877</CreationDate>
 											<Notes/>
 											<revoked>false</revoked>
 											<condition/>
