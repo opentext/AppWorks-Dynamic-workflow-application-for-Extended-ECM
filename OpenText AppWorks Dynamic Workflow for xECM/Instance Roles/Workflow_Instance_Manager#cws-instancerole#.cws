@@ -1,0 +1,33 @@
+
+<InstanceRole
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.instancerole.InstanceRole"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A399-BE3A3B03D603">
+	<DocumentID>84A93862-1D74-A1ED-A399-BE3A3B039603</DocumentID>
+	<Name>Workflow_Instance_Manager</Name>
+	<Description>Workflow_Instance_Manager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T08:41:09.925</CreationDate>
+	<Notes/>
+	<ExposeForReuse>false</ExposeForReuse>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A399-BE3A3B015603">
+			<DocumentID>84A93862-1D74-A1ED-A399-BE3A3B011603</DocumentID>
+			<Name>84A93862-1D74-A1ED-A399-BE3A3B011603</Name>
+			<Description>84A93862-1D74-A1ED-A399-BE3A3B011603</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T08:41:09.925</CreationDate>
+			<Notes/>
+			<DeveloperText>Workflow Instance Manager</DeveloperText>
+			<Identifier>
+				<uri
+					id="84A93862-1D74-A1ED-A399-BE3A3B019603"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<IncludedRoles/>
+</InstanceRole>

@@ -1,0 +1,18 @@
+
+<EmailConfig
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.emailconfig.EmailConfig"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A399-59D4BF061603">
+	<DocumentID>84A93862-1D74-A1ED-A399-59D4BF05D603</DocumentID>
+	<Name>WorkflowEmailConfiguration</Name>
+	<Description>WorkflowEmailConfiguration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T08:29:57.164</CreationDate>
+	<Notes/>
+	<EmailProfileUserID></EmailProfileUserID>
+	<EnableDefault>false</EnableDefault>
+	<From></From>
+	<FromDisplayName></FromDisplayName>
+	<ReplyTo></ReplyTo>
+	<DisplayName/>
+</EmailConfig>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A399-BE3A3B025603">
+	<DocumentID>84A93862-1D74-A1ED-A399-BE3A3B021603</DocumentID>
+	<Name>84A93862-1D74-A1ED-A399-BE3A3B021603</Name>
+	<Description>Workflow Instance Manager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T08:41:09.926</CreationDate>
+	<Notes/>
+	<Text>Workflow Instance Manager</Text>
+	<Language>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B94114A"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A93862-1D74-A1ED-A399-BE3A3B019603"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -18,7 +18,25 @@
 	<LayoutPanelType>FitToScreen</LayoutPanelType>
 	<LayoutType>0</LayoutType>
 	<ShowFirstTab>false</ShowFirstTab>
-	<ActionBarAssociations/>
+	<ActionBarAssociations>
+		<ActionBarAssociation
+			type="com.cordys.entity.buildingblocks.layout.ActionBarAssociation"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A398-5938B6ACD603">
+			<DocumentID>84A93862-1D74-A1ED-A398-5938B6AC9603</DocumentID>
+			<Name>TaskPanel_SelectedActionBar</Name>
+			<Description>Taskactions</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T08:24:44.033</CreationDate>
+			<Notes/>
+			<DisplayName>Taskactions</DisplayName>
+			<ModelerId>43090e3dfeed80d1bb75d1cd90dca7ff</ModelerId>
+			<ActionBar>
+				<uri
+					id="00505601-245D-A1ED-9EE1-EF8A7DD2D14A"
+				/>
+			</ActionBar>
+		</ActionBarAssociation>
+	</ActionBarAssociations>
 	<BuildingBlock>
 		<uri
 			id="00505601-245D-A1ED-9EE0-B38BB463114A"
@@ -66,12 +84,16 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-12-14T07:53:37.981</CreationDate>
 			<Notes/>
-			<Definition>{&quot;sourceId&quot;:&quot;AD4D660883F02AEE95C8164C693F3C16&quot;,&quot;sourceName&quot;:&quot;TaskPanel&quot;,&quot;blockName&quot;:&quot;TaskListBuildingBlock&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;f8f6111f0fc065d5c10b2b757ace4508&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;ActionsPanel&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:&quot;0&quot;},{&quot;name&quot;:&quot;State&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Subject&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Assignee&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;StartDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DueDate&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Priority&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DeliveryDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;CompletionDate&quot;,&quot;value&quot;:&quot;false&quot;}]}</Definition>
+			<Definition>{&quot;sourceId&quot;:&quot;AD4D660883F02AEE95C8164C693F3C16&quot;,&quot;sourceName&quot;:&quot;TaskPanel&quot;,&quot;blockName&quot;:&quot;TaskListBuildingBlock&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;f8f6111f0fc065d5c10b2b757ace4508&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;00505601245DA1ED9EE1EF8A7DD2D14A&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:null},{&quot;name&quot;:&quot;State&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Subject&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Assignee&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;StartDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DueDate&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Priority&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DeliveryDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;CompletionDate&quot;,&quot;value&quot;:&quot;false&quot;}]}</Definition>
 			<DisplayName>Tasks</DisplayName>
 			<ModelerId>f8f6111f0fc065d5c10b2b757ace4508</ModelerId>
 			<SourceId>AD4D660883F02AEE95C8164C693F3C16</SourceId>
 			<SourceName>TaskPanel</SourceName>
-			<ActionBarAssociation/>
+			<ActionBarAssociation>
+				<uri
+					id="84A93862-1D74-A1ED-A398-5938B6AC9603"
+				/>
+			</ActionBarAssociation>
 			<CustomScript/>
 			<FormAssociation/>
 			<IHubPanelConfiguration/>

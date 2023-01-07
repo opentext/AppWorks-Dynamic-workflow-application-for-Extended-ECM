@@ -1,0 +1,51 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A39F-F011EFBF5603">
+	<DocumentID>84A93862-1D74-A1ED-A39F-F011EFBF1603</DocumentID>
+	<Name>ForCreateTask</Name>
+	<Description>ForCreateTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T11:40:40.923</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>Hi,&amp;nbsp;&lt;br /&gt;
+The &lt;a href=&quot;{taskInstanceURL()}&quot;&gt;task&lt;/a&gt;&amp;nbsp; &amp;nbsp;{item.Task.Subject} of the workflow&amp;nbsp;{item.DynamicWorkflow.DynamicWorkflowInstance.DisplayName}&amp;nbsp; has been created.</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Task created</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-245D-A1ED-9EE0-EC2FE6C2D14A"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A39F-F011EFBD5603">
+			<DocumentID>84A93862-1D74-A1ED-A39F-F011EFBD1603</DocumentID>
+			<Name>84A93862-1D74-A1ED-A39F-F011EFBD1603</Name>
+			<Description>84A93862-1D74-A1ED-A39F-F011EFBD1603</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T11:40:40.923</CreationDate>
+			<Notes/>
+			<DeveloperText>For Create Task</DeveloperText>
+			<Identifier>
+				<uri
+					id="84A93862-1D74-A1ED-A39F-F011EFBD9603"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

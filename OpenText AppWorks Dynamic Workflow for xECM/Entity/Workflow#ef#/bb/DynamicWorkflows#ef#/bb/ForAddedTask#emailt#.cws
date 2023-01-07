@@ -1,0 +1,52 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A399-67B9D2551603">
+	<DocumentID>84A93862-1D74-A1ED-A399-67B9D254D603</DocumentID>
+	<Name>ForAddedTask</Name>
+	<Description>ForAddedTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T08:32:57.657</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>Hi,&lt;br /&gt;
+&lt;br /&gt;
+A new task has been added to the&amp;nbsp;&lt;a href=&quot;{workflowInstanceURL()}&quot;&gt;workflow&lt;/a&gt;&amp;nbsp; {item.DynamicWorkflowInstance.DisplayName}.</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>New task has been added</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-245D-A1ED-9EE0-E227ED61514A"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A399-67B9D2531603">
+			<DocumentID>84A93862-1D74-A1ED-A399-67B9D252D603</DocumentID>
+			<Name>84A93862-1D74-A1ED-A399-67B9D252D603</Name>
+			<Description>84A93862-1D74-A1ED-A399-67B9D252D603</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T08:32:57.657</CreationDate>
+			<Notes/>
+			<DeveloperText>ForAddedTask</DeveloperText>
+			<Identifier>
+				<uri
+					id="84A93862-1D74-A1ED-A399-67B9D2535603"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

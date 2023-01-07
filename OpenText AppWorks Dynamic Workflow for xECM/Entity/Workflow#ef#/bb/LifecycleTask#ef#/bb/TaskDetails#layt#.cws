@@ -36,6 +36,23 @@
 				/>
 			</ActionBar>
 		</ActionBarAssociation>
+		<ActionBarAssociation
+			type="com.cordys.entity.buildingblocks.layout.ActionBarAssociation"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A39F-F011EFB8D603">
+			<DocumentID>84A93862-1D74-A1ED-A39F-F011EFB89603</DocumentID>
+			<Name>ViewWorkflow_SelectedActionBar</Name>
+			<Description>Taskactions</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T11:42:56.694</CreationDate>
+			<Notes/>
+			<DisplayName>Taskactions</DisplayName>
+			<ModelerId>3805bcb138809d76f4397e11b792893a</ModelerId>
+			<ActionBar>
+				<uri
+					id="00505601-245D-A1ED-9EE1-EF8A7DD2D14A"
+				/>
+			</ActionBar>
+		</ActionBarAssociation>
 	</ActionBarAssociations>
 	<BuildingBlock>
 		<uri
@@ -92,7 +109,7 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-12-14T08:40:52.142</CreationDate>
 			<Notes/>
-			<Definition>{&quot;sourceId&quot;:&quot;A68E0CD3E6914C42AF7F1352FC5884D1&quot;,&quot;sourceName&quot;:&quot;Actions&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;imageQualifiedName&quot;:null,&quot;dockPanel&quot;:true,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;00505601245DA1ED9EE1EF8A7DD2D14A&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:null}]}</Definition>
+			<Definition>{&quot;sourceId&quot;:&quot;A68E0CD3E6914C42AF7F1352FC5884D1&quot;,&quot;sourceName&quot;:&quot;Actions&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;imageQualifiedName&quot;:null,&quot;dockPanel&quot;:true,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;actionbarAlignment&quot;:&quot;right&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;00505601245DA1ED9EE1EF8A7DD2D14A&quot;},{&quot;name&quot;:&quot;layoutContainerVersionId&quot;,&quot;value&quot;:null}]}</Definition>
 			<DisplayName>Actions</DisplayName>
 			<ModelerId>272a86cfd02f5d66dbdeece5a894b49f</ModelerId>
 			<SourceId>A68E0CD3E6914C42AF7F1352FC5884D1</SourceId>
@@ -199,12 +216,16 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-12-14T08:42:02.966</CreationDate>
 			<Notes/>
-			<Definition>{&quot;sourceId&quot;:&quot;887FFD3A6354452E8263FF8DE3D6E7CC&quot;,&quot;sourceName&quot;:&quot;ViewWorkflow&quot;,&quot;blockName&quot;:&quot;LayoutBuildingBlock&quot;,&quot;chrome&quot;:&quot;full&quot;,&quot;id&quot;:&quot;46a2d55820fc591eca3ef749b431ce0d&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;State&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Name&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Type&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Assignee&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Tasktype&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Priority&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Notes&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DueDate&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;DeliveryDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;CompletionDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;StartDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;ActionsPanel&quot;}]}</Definition>
+			<Definition>{&quot;sourceId&quot;:&quot;887FFD3A6354452E8263FF8DE3D6E7CC&quot;,&quot;sourceName&quot;:&quot;ViewWorkflow&quot;,&quot;blockName&quot;:&quot;LayoutBuildingBlock&quot;,&quot;chrome&quot;:&quot;full&quot;,&quot;id&quot;:&quot;46a2d55820fc591eca3ef749b431ce0d&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;properties&quot;:[{&quot;name&quot;:&quot;State&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Name&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Type&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Assignee&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;Tasktype&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Priority&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;Notes&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;DueDate&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;DeliveryDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;CompletionDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;StartDate&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;actionBarId&quot;,&quot;value&quot;:&quot;00505601245DA1ED9EE1EF8A7DD2D14A&quot;}]}</Definition>
 			<DisplayName>Workflows</DisplayName>
 			<ModelerId>46a2d55820fc591eca3ef749b431ce0d</ModelerId>
 			<SourceId>887FFD3A6354452E8263FF8DE3D6E7CC</SourceId>
 			<SourceName>ViewWorkflow</SourceName>
-			<ActionBarAssociation/>
+			<ActionBarAssociation>
+				<uri
+					id="84A93862-1D74-A1ED-A39F-F011EFB89603"
+				/>
+			</ActionBarAssociation>
 			<CustomScript/>
 			<FormAssociation/>
 			<IHubPanelConfiguration/>

@@ -1,0 +1,52 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="84A93862-1D74-A1ED-A39F-F011EFC21603">
+	<DocumentID>84A93862-1D74-A1ED-A39F-F011EFC1D603</DocumentID>
+	<Name>ForCompleteTask</Name>
+	<Description>ForCompleteTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-07T11:40:00.911</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>&amp;nbsp;&lt;br /&gt;
+Hi,&amp;nbsp;&lt;br /&gt;
+The &lt;a href=&quot;{taskInstanceURL()}&quot;&gt;task&lt;/a&gt;&amp;nbsp; {item.Task.Subject} of the workflow&amp;nbsp;{item.DynamicWorkflow.DynamicWorkflowInstance.DisplayName}&amp;nbsp; has been completed.</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Task completed</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-245D-A1ED-9EE0-EC2FE6C2D14A"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A39F-F011EFC01603">
+			<DocumentID>84A93862-1D74-A1ED-A39F-F011EFBFD603</DocumentID>
+			<Name>84A93862-1D74-A1ED-A39F-F011EFBFD603</Name>
+			<Description>84A93862-1D74-A1ED-A39F-F011EFBFD603</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T11:40:00.911</CreationDate>
+			<Notes/>
+			<DeveloperText>For Complete Task</DeveloperText>
+			<Identifier>
+				<uri
+					id="84A93862-1D74-A1ED-A39F-F011EFC05603"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>
