@@ -48,6 +48,9 @@
 		<uri
 			id="84A93862-1D74-A1ED-A3A0-28807B5D9603"
 		/>
+		<uri
+			id="84A93862-1D74-A1ED-A3AF-F5F6EE5D1603"
+		/>
 	</BuildingBlocks>
 	<DBObject/>
 	<DisplayName/>
@@ -7250,6 +7253,122 @@
 									</identity>
 									<rights/>
 								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE615603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE611603</DocumentID>
+									<Name>84A93862-1D74-A1ED-A3AF-F5F6EE611603</Name>
+									<Description>84A93862-1D74-A1ED-A3AF-F5F6EE611603</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:19:21.863</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="84A93862-1D74-A1ED-A3A0-28807B5C9603"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE609603">
+											<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE605603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3AF-F5F6EE605603</Name>
+											<Description>84A93862-1D74-A1ED-A3AF-F5F6EE605603</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-01-07T19:19:21.863</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="3FA03A89-6A27-49F9-AA39-526159972EC2"
+												/>
+											</right>
+										</ApplicableRight>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5F1603">
+											<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5ED603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3AF-F5F6EE5ED603</Name>
+											<Description>84A93862-1D74-A1ED-A3AF-F5F6EE5ED603</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-01-07T19:19:21.864</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="781880BC-9998-452B-9754-41EA7FEA0B74"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE601603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5FD603</DocumentID>
+									<Name>84A93862-1D74-A1ED-A3AF-F5F6EE5FD603</Name>
+									<Description>84A93862-1D74-A1ED-A3AF-F5F6EE5FD603</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:19:21.863</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="84A93862-1D74-A1ED-A3A0-28807B5B1603"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5F9603">
+											<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5F5603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3AF-F5F6EE5F5603</Name>
+											<Description>84A93862-1D74-A1ED-A3AF-F5F6EE5F5603</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-01-07T19:19:21.864</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="3FA03A89-6A27-49F9-AA39-526159972EC2"
+												/>
+											</right>
+										</ApplicableRight>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5E9603">
+											<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5E5603</DocumentID>
+											<Name>84A93862-1D74-A1ED-A3AF-F5F6EE5E5603</Name>
+											<Description>84A93862-1D74-A1ED-A3AF-F5F6EE5E5603</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-01-07T19:19:21.863</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="781880BC-9998-452B-9754-41EA7FEA0B74"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
 							</accesscontrolentries>
 							<accesscontrollists>
 								<AccessControlList
@@ -7817,6 +7936,421 @@
 				</Tracking>
 			</Tracking>
 		</TrackingBuildingBlock>
+		<NotificationBuildingBlock
+			type="com.cordys.entity.buildingblocks.notification.NotificationBuildingBlock"
+			RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5D5603">
+			<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5D1603</DocumentID>
+			<Name>Notification</Name>
+			<Description>Notification</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-245D-A1ED-9EE0-EC2FE6C8D14A"
+				/>
+			</Entity>
+			<InlinedEntities/>
+			<Notification>
+				<Notification
+					type="com.cordys.entity.buildingblocks.notification.Notification"
+					RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5CD603">
+					<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5C9603</DocumentID>
+					<Name>Notification</Name>
+					<Description>Default Notification</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+					<Notes/>
+					<DisplayName/>
+					<NotificationBuildingBlock>
+						<uri
+							id="84A93862-1D74-A1ED-A3AF-F5F6EE5D1603"
+						/>
+					</NotificationBuildingBlock>
+					<NotificationTriggers>
+						<NotificationTrigger
+							type="com.cordys.entity.buildingblocks.notification.NotificationTrigger"
+							RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5C5603">
+							<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5C1603</DocumentID>
+							<Name>Untitled NotificationTrigger</Name>
+							<Description>Untitled NotificationTrigger</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+							<Notes/>
+							<BuildingBlockID>90B11C8A-3947-11E5-F7F0-5406E6CE7FCB</BuildingBlockID>
+							<BuildingBlockName>Task</BuildingBlockName>
+							<checkAllActions>false</checkAllActions>
+							<NotificationBBActions>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5BD603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5B9603</DocumentID>
+									<Name>Untitled NotificationBBAction</Name>
+									<Description>Untitled NotificationBBAction</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>2C633FBB84C84B33B41F63AD619DA7A4</EventID>
+									<EventName>Claim</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5B5603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5B1603</DocumentID>
+									<Name>Untitled NotificationBBAction (1)</Name>
+									<Description>Untitled NotificationBBAction (1)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>3072FDFD28564C3FA87194CD0228206B</EventID>
+									<EventName>Assign</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>true</checkEvent>
+									<EventEmailTemplate>
+										<uri
+											id="84A93862-1D74-A1ED-A39F-F011EFC49603"
+										/>
+									</EventEmailTemplate>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5AD603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5A9603</DocumentID>
+									<Name>Untitled NotificationBBAction (2)</Name>
+									<Description>Untitled NotificationBBAction (2)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>33DE80F2B80749699C440A90B6A5B5FE</EventID>
+									<EventName>RevokeClaim</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE5A5603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE5A1603</DocumentID>
+									<Name>Untitled NotificationBBAction (3)</Name>
+									<Description>Untitled NotificationBBAction (3)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>CD65932851134CDB8C0E54D8046AE894</EventID>
+									<EventName>Start</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE59D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE599603</DocumentID>
+									<Name>Untitled NotificationBBAction (4)</Name>
+									<Description>Untitled NotificationBBAction (4)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>6E744B05A3A940678B0D77CEB8B12820</EventID>
+									<EventName>Stop</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE595603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE591603</DocumentID>
+									<Name>Untitled NotificationBBAction (5)</Name>
+									<Description>Untitled NotificationBBAction (5)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>A57B532ED31F48FCB01DCDAC6591DD2E</EventID>
+									<EventName>Pause</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE58D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE589603</DocumentID>
+									<Name>Untitled NotificationBBAction (6)</Name>
+									<Description>Untitled NotificationBBAction (6)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>6AA312837DC94C4EB3D12055BF041163</EventID>
+									<EventName>Resume</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE585603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE581603</DocumentID>
+									<Name>Untitled NotificationBBAction (7)</Name>
+									<Description>Untitled NotificationBBAction (7)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>D0E7A56B92FB44C488CB2C94C4381B9D</EventID>
+									<EventName>Suspend</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE57D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE579603</DocumentID>
+									<Name>Untitled NotificationBBAction (8)</Name>
+									<Description>Untitled NotificationBBAction (8)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.989</CreationDate>
+									<Notes/>
+									<EventID>279282427C3940F78B5C995913FD696B</EventID>
+									<EventName>Skip</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE575603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE571603</DocumentID>
+									<Name>Untitled NotificationBBAction (9)</Name>
+									<Description>Untitled NotificationBBAction (9)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>290C22762C2A41B1980C47F85A6AD141</EventID>
+									<EventName>Delegate</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE56D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE569603</DocumentID>
+									<Name>Untitled NotificationBBAction (10)</Name>
+									<Description>Untitled NotificationBBAction (10)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>A70244DC8F1D4291963B04583E0077EB</EventID>
+									<EventName>Forward</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE565603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE561603</DocumentID>
+									<Name>Untitled NotificationBBAction (11)</Name>
+									<Description>Untitled NotificationBBAction (11)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>54DC89646A0F432581145CC19F4CB7A6</EventID>
+									<EventName>Complete</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>true</checkEvent>
+									<EventEmailTemplate>
+										<uri
+											id="84A93862-1D74-A1ED-A39F-F011EFC1D603"
+										/>
+									</EventEmailTemplate>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE55D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE559603</DocumentID>
+									<Name>Untitled NotificationBBAction (12)</Name>
+									<Description>Untitled NotificationBBAction (12)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>E73A5E6AAE7241C7B42F04FD94EC80AC</EventID>
+									<EventName>Acknowledge</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE555603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE551603</DocumentID>
+									<Name>Untitled NotificationBBAction (13)</Name>
+									<Description>Untitled NotificationBBAction (13)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.987</CreationDate>
+									<Notes/>
+									<EventID>F2ACD530FFBB424EB2C94E73D6AA876A</EventID>
+									<EventName>Approve</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>true</checkEvent>
+									<EventEmailTemplate>
+										<uri
+											id="84A93862-1D74-A1ED-A39F-F011EFC75603"
+										/>
+									</EventEmailTemplate>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE54D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE549603</DocumentID>
+									<Name>Untitled NotificationBBAction (14)</Name>
+									<Description>Untitled NotificationBBAction (14)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>4ECC3419244B4509A7405086032590EF</EventID>
+									<EventName>Reject</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>true</checkEvent>
+									<EventEmailTemplate>
+										<uri
+											id="84A93862-1D74-A1ED-A39F-F011EFBC5603"
+										/>
+									</EventEmailTemplate>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE545603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE541603</DocumentID>
+									<Name>Untitled NotificationBBAction (15)</Name>
+									<Description>Untitled NotificationBBAction (15)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>9436B7C544404D9D82DFB761D85AFDE2</EventID>
+									<EventName>Inquire</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID></TemplateID>
+									<checkEvent>false</checkEvent>
+									<EventEmailTemplate/>
+									<Roles/>
+								</NotificationBBAction>
+								<NotificationBBAction
+									type="com.cordys.entity.buildingblocks.notification.NotificationBBAction"
+									RuntimeDocumentID="84A93862-1D74-A1ED-A3AF-F5F6EE53D603">
+									<DocumentID>84A93862-1D74-A1ED-A3AF-F5F6EE539603</DocumentID>
+									<Name>Untitled NotificationBBAction (16)</Name>
+									<Description>Untitled NotificationBBAction (16)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-01-07T19:21:45.988</CreationDate>
+									<Notes/>
+									<EventID>DD19733591CD4F658DBFAEDC176DA10C</EventID>
+									<EventName>Create</EventName>
+									<SourceName>Task</SourceName>
+									<TargetRole></TargetRole>
+									<TargetRoleExpression></TargetRoleExpression>
+									<TargetRoleType>Role</TargetRoleType>
+									<TemplateID>84A93862-1D74-A1ED-A39F-F011EFC21603</TemplateID>
+									<checkEvent>true</checkEvent>
+									<EventEmailTemplate>
+										<uri
+											id="84A93862-1D74-A1ED-A39F-F011EFBF1603"
+										/>
+									</EventEmailTemplate>
+									<Roles/>
+								</NotificationBBAction>
+							</NotificationBBActions>
+						</NotificationTrigger>
+					</NotificationTriggers>
+					<Original/>
+				</Notification>
+			</Notification>
+			<Original/>
+			<OwnedActions/>
+			<Relationships/>
+		</NotificationBuildingBlock>
 	</OwnedBuildingBlocks>
 	<ParentRelationship>
 		<uri
