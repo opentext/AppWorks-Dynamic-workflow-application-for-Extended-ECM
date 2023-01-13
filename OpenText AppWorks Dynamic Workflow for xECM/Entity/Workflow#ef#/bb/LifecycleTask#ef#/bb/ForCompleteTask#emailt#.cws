@@ -17,7 +17,7 @@ The &lt;a href=&quot;{taskInstanceURL()}&quot;&gt;task&lt;/a&gt;&amp;nbsp; {item
 	<CC></CC>
 	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
 	<IsVisibleToEndUser>true</IsVisibleToEndUser>
-	<Subject>Task completed</Subject>
+	<Subject>Task has been assigned</Subject>
 	<To></To>
 	<BCCRole/>
 	<BuildingBlock>

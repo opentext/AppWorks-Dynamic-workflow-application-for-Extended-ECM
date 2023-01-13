@@ -2594,23 +2594,6 @@
 												/>
 											</right>
 										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-40233E305603">
-											<DocumentID>84A93862-1D74-A1ED-A3A0-40233E301603</DocumentID>
-											<Name>84A93862-1D74-A1ED-A3A0-40233E301603</Name>
-											<Description>84A93862-1D74-A1ED-A3A0-40233E301603</Description>
-											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-07T13:09:22.877</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="01cc5f17-1d0c-418c-8b8b-8ea7e651dfe5"
-												/>
-											</right>
-										</ApplicableRight>
 									</applicableRights>
 									<identity>
 										<uri

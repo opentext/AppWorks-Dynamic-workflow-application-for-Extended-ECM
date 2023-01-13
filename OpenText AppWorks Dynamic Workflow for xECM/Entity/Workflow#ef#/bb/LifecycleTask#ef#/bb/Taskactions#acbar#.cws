@@ -9,7 +9,7 @@
 	<CreatedBy>sysadmin</CreatedBy>
 	<CreationDate>2022-12-14T08:22:26.457</CreationDate>
 	<Notes/>
-	<EnablePrimaryButton>false</EnablePrimaryButton>
+	<EnablePrimaryButton>true</EnablePrimaryButton>
 	<ActionBarComponents>
 		<ActionBarComponent
 			type="com.cordys.entity.buildingblocks.actionbar.ActionBarComponent"
