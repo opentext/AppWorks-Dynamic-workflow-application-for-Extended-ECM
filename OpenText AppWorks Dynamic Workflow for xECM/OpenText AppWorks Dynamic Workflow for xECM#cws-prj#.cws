@@ -11,7 +11,28 @@
 	<CreationDate>2022-12-14T07:44:42.433</CreationDate>
 	<Notes/>
 	<NamespacePrefix></NamespacePrefix>
-	<Configurations/>
+	<Configurations>
+		<EntityConfiguration
+			type="com.opentext.entity.config.EntityConfiguration"
+			RuntimeDocumentID="38142845-0073-A1ED-B612-C95AE0B518F6">
+			<DocumentID>38142845-0073-A1ED-B612-C95AE0B4D8F6</DocumentID>
+			<Name>Untitled EntityConfiguration</Name>
+			<Description>Untitled EntityConfiguration</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T09:28:28.975</CreationDate>
+			<Notes/>
+			<ConfigurationEntity>
+				<uri
+					id="38142845-0073-A1ED-B612-C95AE0B458F6"
+				/>
+			</ConfigurationEntity>
+			<Project>
+				<uri
+					id="00505601-245D-A1ED-9EE0-CAA23B92914A"
+				/>
+			</Project>
+		</EntityConfiguration>
+	</Configurations>
 	<ISVPackageInfo>
 		<ISVPackageInfo
 			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
@@ -44,7 +65,7 @@
 	<RuntimeQualifiedName/>
 	<SourceFolder>
 		<uri
-			id="00505601-245D-A1ED-9EE0-CAA23B95114A"
+			id="38142845-0073-A1ED-B612-8496E6F118F6"
 			path="OpenText AppWorks Dynamic Workflow for xECM"
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>

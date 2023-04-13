@@ -96,17 +96,17 @@
 		<TranslatableText
 			type="com.cordys.translation.TranslatableText"
 			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-			RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B4A5603">
-			<DocumentID>84A93862-1D74-A1ED-A3A0-28807B4A1603</DocumentID>
-			<Name>84A93862-1D74-A1ED-A3A0-28807B4A1603</Name>
-			<Description>84A93862-1D74-A1ED-A3A0-28807B4A1603</Description>
+			RuntimeDocumentID="38142845-0073-A1ED-B614-8B11862758F6">
+			<DocumentID>38142845-0073-A1ED-B614-8B11862718F6</DocumentID>
+			<Name>38142845-0073-A1ED-B614-8B11862718F6</Name>
+			<Description>38142845-0073-A1ED-B614-8B11862718F6</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2023-01-07T11:48:16.703</CreationDate>
+			<CreationDate>2023-04-11T10:25:23.267</CreationDate>
 			<Notes/>
-			<DeveloperText>Inactive user tasks</DeveloperText>
+			<DeveloperText>Task – my workflows inactive users</DeveloperText>
 			<Identifier>
 				<uri
-					id="84A93862-1D74-A1ED-A3A0-28807B4A9603"
+					id="38142845-0073-A1ED-B614-8B11862798F6"
 				/>
 			</Identifier>
 		</TranslatableText>
@@ -122,13 +122,13 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2023-01-07T11:48:16.703</CreationDate>
 			<Notes/>
-			<EncodedExpression>(item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.23192ED07CE24D239041B67F2285A97B)==1 || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.2B58796CCFD4487EAB78E076F34CD990)!=&quot;5&quot;) &amp;&amp; (item.qpid(00505601245DA1ED9EE0EDAF2FDD114A.84A938621D74A1EDA39967B9D25FD603.F8B156E1037111E6E9CB18D8754D5BBF.F8B156B4FF8F11E6EE7EB5B96C4B771A)==User.Properties.UserId || (item.qpid(00505601245DA1ED9EE0EDAF2FDF114A.00505601245DA1ED9EE0EC2FE6C2914A.00505601245DA1ED9EE0EC2FE6C0914A) is not null &amp;&amp; item.qpid(84A938621D74A1EDA3A028807B5CD603.F8B156E1037111E6E9CB18D8754D5BBF.F8B156B4FF8F11E6EE7EB5B96C4B771A)==User.Properties.UserId)) &amp;&amp; (item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.58311DD6EEF643C0B3DA540F29B2CB93) in disabledUsersWithTasks() || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.58311DD6EEF643C0B3DA540F29B2CB93) in deletedUsersWithTasks())</EncodedExpression>
+			<EncodedExpression>(item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.23192ED07CE24D239041B67F2285A97B)==1 || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.2B58796CCFD4487EAB78E076F34CD990)!=&quot;5&quot;) &amp;&amp; (item.qpid(00505601245DA1ED9EE0EDAF2FDD114A.84A938621D74A1EDA39967B9D25FD603.F8B156E1037111E6E9CB18D8754D5BBF.F8B156B4FF8F11E6EE7EB5B96C4B771A)==User.Properties.UserId || item.qpid(00505601245DA1ED9EE0EDAF2FDD114A.381428450073A1EDB6134269942E98F6.F8B156B4FF8F11E6E6F1BB7823D4F319.F8B156B4FF8F11E6E6F1BB7823D49319)==User.Properties.UserId || (item.qpid(00505601245DA1ED9EE0EDAF2FDF114A.00505601245DA1ED9EE0EC2FE6C2914A.00505601245DA1ED9EE0EC2FE6C0914A) is not null &amp;&amp; item.qpid(84A938621D74A1EDA3A028807B5CD603.F8B156E1037111E6E9CB18D8754D5BBF.F8B156B4FF8F11E6EE7EB5B96C4B771A)==User.Properties.UserId)) &amp;&amp; (item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.58311DD6EEF643C0B3DA540F29B2CB93) in disabledUsersWithTasks() || item.qpid(90B11C8A394711E5F7F05406E6CE7FCB.58311DD6EEF643C0B3DA540F29B2CB93) in deletedUsersWithTasks())</EncodedExpression>
 			<ErrorMessage>You have created an expression that cannot be represented in basic mode.</ErrorMessage>
-			<HumanExpression>(item.Task.AcknowledgeStatus==1 || item.Task.State!=&quot;5&quot;) &amp;&amp; (item.DynamicWorkflow.CreatedBy.Properties.UserId==User.Properties.UserId || (item.InquiredTask.Identity.Id is not null &amp;&amp; item.CreatedBy.Properties.UserId==User.Properties.UserId)) &amp;&amp; (item.Task.TaskOwner in disabledUsersWithTasks() || item.Task.TaskOwner in deletedUsersWithTasks())</HumanExpression>
+			<HumanExpression>(item.Task.AcknowledgeStatus==1 || item.Task.State!=&quot;5&quot;) &amp;&amp; (item.DynamicWorkflow.CreatedBy.Properties.UserId==User.Properties.UserId || item.DynamicWorkflow.AssigneeIdentity.Properties.Name==User.Properties.UserId || (item.InquiredTask.Identity.Id is not null &amp;&amp; item.CreatedBy.Properties.UserId==User.Properties.UserId)) &amp;&amp; (item.Task.TaskOwner in disabledUsersWithTasks() || item.Task.TaskOwner in deletedUsersWithTasks())</HumanExpression>
 			<IsAdvancedOnly>1</IsAdvancedOnly>
 			<IsPropertyNameOnly>0</IsPropertyNameOnly>
 			<IsValid>1</IsValid>
-			<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;6CEFBBBEE958E7F60A6063D60C015965&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;129C2841B1E90E86566EDCBF4663C200&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Integer&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2FD1914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;1&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.Task.AcknowledgeStatus&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F6C914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.Task.State&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;50D6C2791471C9F72AADAEF01990C849&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;F8B156B4-FF8F-11E6-EE7E-B5B96C4B571A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;00505601245DA1ED9EE0EDAF2FDD114A&quot;,&quot;84A938621D74A1EDA39967B9D25FD603&quot;],&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;},&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;User.Properties.UserId&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.DynamicWorkflow.CreatedBy.Properties.UserId&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;DynamicWorkflow.CreatedBy&quot;},{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;6FD28A83AEFD1F605243B5BCEF735BCA&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;BigInteger&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EC2FE6C0514A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;00505601245DA1ED9EE0EDAF2FDF114A&quot;],&quot;itemMemberId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C2914A&quot;,&quot;propertyId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;},&quot;itemMemberId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C2914A&quot;,&quot;propertyId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;IsNotNull&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.InquiredTask.Identity.Id&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;InquiredTask&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;F8B156B4-FF8F-11E6-EE7E-B5B96C4B571A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;84A938621D74A1EDA3A028807B5CD603&quot;],&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;},&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;User.Properties.UserId&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.CreatedBy.Properties.UserId&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;CreatedBy&quot;}]}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;65C5099A20AD3FDF9AF68E619817F8CC&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F53914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;disabledUsersWithTasks()&quot;,&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.Task.TaskOwner&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F53914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;deletedUsersWithTasks()&quot;,&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.Task.TaskOwner&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;}]}]}</QueryCriteria>
+			<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;6CEFBBBEE958E7F60A6063D60C015965&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;129C2841B1E90E86566EDCBF4663C200&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Integer&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2FD1914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;23192ED07CE24D239041B67F2285A97B&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:1,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.Task.AcknowledgeStatus&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F6C914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.Task.State&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;50D6C2791471C9F72AADAEF01990C849&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;F8B156B4-FF8F-11E6-EE7E-B5B96C4B571A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;00505601245DA1ED9EE0EDAF2FDD114A&quot;,&quot;84A938621D74A1EDA39967B9D25FD603&quot;],&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;},&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;User.Properties.UserId&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.DynamicWorkflow.CreatedBy.Properties.UserId&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;DynamicWorkflow.CreatedBy&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;F8B156B4-FF8F-11E6-E6F1-BB7823D47319&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;00505601245DA1ED9EE0EDAF2FDD114A&quot;,&quot;381428450073A1EDB6134269942E98F6&quot;],&quot;itemMemberId&quot;:&quot;F8B156B4FF8F11E6E6F1BB7823D4F319&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6E6F1BB7823D49319&quot;},&quot;itemMemberId&quot;:&quot;F8B156B4FF8F11E6E6F1BB7823D4F319&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6E6F1BB7823D49319&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;F8B156B4FF8F11E6E6F1BB7823D49319&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;User.Properties.UserId&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.DynamicWorkflow.AssigneeIdentity.Properties.Name&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;DynamicWorkflow.AssigneeIdentity&quot;},{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;6FD28A83AEFD1F605243B5BCEF735BCA&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;BigInteger&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EC2FE6C0514A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;00505601245DA1ED9EE0EDAF2FDF114A&quot;],&quot;itemMemberId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C2914A&quot;,&quot;propertyId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;},&quot;itemMemberId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C2914A&quot;,&quot;propertyId&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;00505601245DA1ED9EE0EC2FE6C0914A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;IsNotNull&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]},&quot;fullHumanPropertyName&quot;:&quot;item.InquiredTask.Identity.Id&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;InquiredTask&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;F8B156B4-FF8F-11E6-EE7E-B5B96C4B571A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[&quot;84A938621D74A1EDA3A028807B5CD603&quot;],&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;},&quot;itemMemberId&quot;:&quot;F8B156E1037111E6E9CB18D8754D5BBF&quot;,&quot;propertyId&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;F8B156B4FF8F11E6EE7EB5B96C4B771A&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;User.Properties.UserId&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.CreatedBy.Properties.UserId&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;CreatedBy&quot;}]}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;65C5099A20AD3FDF9AF68E619817F8CC&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F53914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;disabledUsersWithTasks()&quot;,&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.Task.TaskOwner&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F53914A&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;deletedUsersWithTasks()&quot;,&quot;isValueExpression&quot;:true},&quot;fullHumanPropertyName&quot;:&quot;item.Task.TaskOwner&quot;,&quot;typeDefinition&quot;:&quot;&quot;,&quot;RelationTargetPath&quot;:&quot;&quot;}]}]}</QueryCriteria>
 			<DisplayName/>
 			<Entity>
 				<uri
@@ -501,11 +501,97 @@
 						/>
 					</RootOwner>
 				</PropertyObjectPath>
+				<PropertyObjectPath
+					type="com.cordys.entity.core.objectpath.PropertyObjectPath"
+					RuntimeDocumentID="38142845-0073-A1ED-B614-8B11861B98F6">
+					<DocumentID>38142845-0073-A1ED-B614-8B11861B58F6</DocumentID>
+					<Name>38142845-0073-A1ED-B614-8B11861B58F6</Name>
+					<Description>item.DynamicWorkflow.AssigneeIdentity.Properties.Name</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T10:27:21.969</CreationDate>
+					<Notes/>
+					<NumberOfIntermediateRelationships>2</NumberOfIntermediateRelationships>
+					<IntermediateRelationships>
+						<RelationshipReference
+							type="com.cordys.entity.core.objectpath.RelationshipReference"
+							RuntimeDocumentID="38142845-0073-A1ED-B614-8B11861B18F6">
+							<DocumentID>38142845-0073-A1ED-B614-8B11861AD8F6</DocumentID>
+							<Name>38142845-0073-A1ED-B614-8B11861AD8F6</Name>
+							<Description>38142845-0073-A1ED-B614-8B11861AD8F6</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-04-11T10:27:21.968</CreationDate>
+							<Notes/>
+							<Relationship>
+								<uri
+									id="00505601-245D-A1ED-9EE0-EDAF2FDCD14A"
+								/>
+							</Relationship>
+						</RelationshipReference>
+						<RelationshipReference
+							type="com.cordys.entity.core.objectpath.RelationshipReference"
+							RuntimeDocumentID="38142845-0073-A1ED-B614-8B11861A98F6">
+							<DocumentID>38142845-0073-A1ED-B614-8B11861A58F6</DocumentID>
+							<Name>38142845-0073-A1ED-B614-8B11861A58F6</Name>
+							<Description>38142845-0073-A1ED-B614-8B11861A58F6</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-04-11T10:27:21.968</CreationDate>
+							<Notes/>
+							<Relationship>
+								<uri
+									id="38142845-0073-A1ED-B613-4269942E58F6"
+								/>
+							</Relationship>
+						</RelationshipReference>
+					</IntermediateRelationships>
+					<Object>
+						<uri
+							id="84A93862-1D74-A1ED-A3A0-28807B4C1603"
+						/>
+					</Object>
+					<ObjectOwner>
+						<uri
+							id="84A93862-1D74-A1ED-A3A0-28807B4D1603"
+						/>
+					</ObjectOwner>
+					<PathBegin>
+						<uri
+							id="00505601-245D-A1ED-9EE0-EC2FE6C8D14A"
+						/>
+					</PathBegin>
+					<PathEnd>
+						<uri
+							id="F8B156B4-FF8F-11E6-E6F1-BB7823D47319"
+						/>
+					</PathEnd>
+					<RootOwner>
+						<uri
+							id="00505601-245D-A1ED-9EE0-EC2FE6C8D14A"
+						/>
+					</RootOwner>
+				</PropertyObjectPath>
 			</UsedProperties>
 		</EntityExpression>
 	</FilterCriteria>
 	<Layout/>
-	<LocalizableCategoryLabel/>
+	<LocalizableCategoryLabel>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="38142845-0073-A1ED-B614-8B118626D8F6">
+			<DocumentID>38142845-0073-A1ED-B614-8B11862698F6</DocumentID>
+			<Name>38142845-0073-A1ED-B614-8B11862698F6</Name>
+			<Description>38142845-0073-A1ED-B614-8B11862698F6</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T10:25:23.267</CreationDate>
+			<Notes/>
+			<DeveloperText>Dynamic workflows</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-245D-A1ED-9EE0-EC2FE677114A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</LocalizableCategoryLabel>
 	<Original/>
 	<UsesAssociation>
 		<UsesAssociation
@@ -733,7 +819,25 @@
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
 			<Layout/>
-			<LocalizableColumnLabel/>
+			<LocalizableColumnLabel>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="38142845-0073-A1ED-B614-8B11862398F6">
+					<DocumentID>38142845-0073-A1ED-B614-8B11862358F6</DocumentID>
+					<Name>38142845-0073-A1ED-B614-8B11862358F6</Name>
+					<Description>38142845-0073-A1ED-B614-8B11862358F6</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T10:25:43.524</CreationDate>
+					<Notes/>
+					<DeveloperText>Task owner name</DeveloperText>
+					<Identifier>
+						<uri
+							id="38142845-0073-A1ED-B614-8B118623D8F6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableColumnLabel>
 			<Property>
 				<uri
 					id="00505601-245D-A1ED-9EE0-EDAF2FA9914A"
@@ -897,7 +1001,25 @@
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
 			<Layout/>
-			<LocalizableColumnLabel/>
+			<LocalizableColumnLabel>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="38142845-0073-A1ED-B614-8B118620D8F6">
+					<DocumentID>38142845-0073-A1ED-B614-8B11862098F6</DocumentID>
+					<Name>38142845-0073-A1ED-B614-8B11862098F6</Name>
+					<Description>38142845-0073-A1ED-B614-8B11862098F6</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T10:26:00.385</CreationDate>
+					<Notes/>
+					<DeveloperText>Approval status</DeveloperText>
+					<Identifier>
+						<uri
+							id="38142845-0073-A1ED-B614-8B11862118F6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableColumnLabel>
 			<Property>
 				<uri
 					id="38142845-0073-A1EC-B7F9-7A57A4B158C1"
@@ -971,7 +1093,25 @@
 				</PropertyObjectPath>
 			</ItemMemberPropertyPath>
 			<Layout/>
-			<LocalizableColumnLabel/>
+			<LocalizableColumnLabel>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="38142845-0073-A1ED-B614-8B11861E18F6">
+					<DocumentID>38142845-0073-A1ED-B614-8B11861DD8F6</DocumentID>
+					<Name>38142845-0073-A1ED-B614-8B11861DD8F6</Name>
+					<Description>38142845-0073-A1ED-B614-8B11861DD8F6</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T10:26:11.714</CreationDate>
+					<Notes/>
+					<DeveloperText>Due date</DeveloperText>
+					<Identifier>
+						<uri
+							id="38142845-0073-A1ED-B614-8B11861E58F6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableColumnLabel>
 			<Property>
 				<uri
 					id="00505601-245D-A1ED-9EE0-EDAF2F84114A"

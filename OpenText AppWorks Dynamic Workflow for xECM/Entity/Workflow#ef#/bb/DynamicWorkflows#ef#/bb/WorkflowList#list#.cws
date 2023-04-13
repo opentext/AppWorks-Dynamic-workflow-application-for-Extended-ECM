@@ -30,6 +30,7 @@
 	<ShowTotalCountInList>false</ShowTotalCountInList>
 	<UserVisible>true</UserVisible>
 	<ActionBar/>
+	<AssignedFilterCriteria/>
 	<BuildingBlock>
 		<uri
 			id="00505601-245D-A1ED-9EE0-E227ED64514A"
@@ -95,17 +96,17 @@
 		<TranslatableText
 			type="com.cordys.translation.TranslatableText"
 			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBBD114A">
-			<DocumentID>00505601-245D-A1ED-9EE1-BF4D602A114A</DocumentID>
-			<Name>00505601-245D-A1ED-9EE1-BF4D602A114A</Name>
-			<Description>00505601-245D-A1ED-9EE1-BF4D602A114A</Description>
+			RuntimeDocumentID="38142845-0073-A1ED-B613-4269942318F6">
+			<DocumentID>38142845-0073-A1ED-B613-42699422D8F6</DocumentID>
+			<Name>38142845-0073-A1ED-B613-42699422D8F6</Name>
+			<Description>38142845-0073-A1ED-B613-42699422D8F6</Description>
 			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2022-12-14T08:12:13.989</CreationDate>
+			<CreationDate>2023-04-11T09:50:51.535</CreationDate>
 			<Notes/>
-			<DeveloperText>Workflow List</DeveloperText>
+			<DeveloperText>All workflows</DeveloperText>
 			<Identifier>
 				<uri
-					id="00505601-245D-A1ED-9EE1-840FDBBD514A"
+					id="38142845-0073-A1ED-B613-4269942358F6"
 				/>
 			</Identifier>
 		</TranslatableText>
@@ -144,7 +145,25 @@
 		</EntityExpression>
 	</FilterCriteria>
 	<Layout/>
-	<LocalizableCategoryLabel/>
+	<LocalizableCategoryLabel>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="38142845-0073-A1ED-B613-4269942518F6">
+			<DocumentID>38142845-0073-A1ED-B613-42699424D8F6</DocumentID>
+			<Name>38142845-0073-A1ED-B613-42699424D8F6</Name>
+			<Description>38142845-0073-A1ED-B613-42699424D8F6</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T09:50:51.535</CreationDate>
+			<Notes/>
+			<DeveloperText>Dynamic workflows</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-245D-A1ED-9EE0-EC2FE677114A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</LocalizableCategoryLabel>
 	<Original/>
 	<UsesAssociation>
 		<UsesAssociation
@@ -412,6 +431,114 @@
 			<Property>
 				<uri
 					id="00505601-245D-A1ED-9EE0-EC2FE695514A"
+				/>
+			</Property>
+			<WorklistDateFormat/>
+			<WorklistDateTimeFormat/>
+		</WorklistColumn>
+		<WorklistColumn
+			type="com.cordys.entity.buildingblocks.worklist.WorklistColumn"
+			typeVersion="EB0867F3-E038-4437-904C-28C716977E55"
+			RuntimeDocumentID="38142845-0073-A1ED-B613-4269942218F6">
+			<DocumentID>38142845-0073-A1ED-B613-42699421D8F6</DocumentID>
+			<Name>Untitled WorklistColumn (3)</Name>
+			<Description>Untitled WorklistColumn (3)</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T09:51:30.553</CreationDate>
+			<Notes/>
+			<ColumnAlignment>0</ColumnAlignment>
+			<ColumnLabel></ColumnLabel>
+			<DataType>Text</DataType>
+			<DefaultSortType>0</DefaultSortType>
+			<Definition></Definition>
+			<FormatterName>resultSimple</FormatterName>
+			<HiddenInResult>false</HiddenInResult>
+			<InForm>true</InForm>
+			<IsComputedProperty>false</IsComputedProperty>
+			<ItemMemberId>F8B156B4-FF8F-11E6-E6F1-BB7823D4F319</ItemMemberId>
+			<ItemMemberPath>381428450073A1EDB6134269942E98F6</ItemMemberPath>
+			<OwnerName>DynamicWorkflows</OwnerName>
+			<PropertyId>F8B156B4-FF8F-11E6-E6F1-BB7823D49319</PropertyId>
+			<PropertyName>Name</PropertyName>
+			<StaticPropertyId></StaticPropertyId>
+			<ItemMemberPropertyPath>
+				<PropertyObjectPath
+					type="com.cordys.entity.core.objectpath.PropertyObjectPath"
+					RuntimeDocumentID="38142845-0073-A1ED-B613-4269942198F6">
+					<DocumentID>38142845-0073-A1ED-B613-4269942158F6</DocumentID>
+					<Name>38142845-0073-A1ED-B613-4269942158F6</Name>
+					<Description>38142845-0073-A1ED-B613-4269942158F6</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T09:51:30.552</CreationDate>
+					<Notes/>
+					<NumberOfIntermediateRelationships>1</NumberOfIntermediateRelationships>
+					<IntermediateRelationships>
+						<RelationshipReference
+							type="com.cordys.entity.core.objectpath.RelationshipReference"
+							RuntimeDocumentID="38142845-0073-A1ED-B613-4269942118F6">
+							<DocumentID>38142845-0073-A1ED-B613-42699420D8F6</DocumentID>
+							<Name>38142845-0073-A1ED-B613-42699420D8F6</Name>
+							<Description>38142845-0073-A1ED-B613-42699420D8F6</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-04-11T09:51:30.552</CreationDate>
+							<Notes/>
+							<Relationship>
+								<uri
+									id="38142845-0073-A1ED-B613-4269942E58F6"
+								/>
+							</Relationship>
+						</RelationshipReference>
+					</IntermediateRelationships>
+					<Object>
+						<uri
+							id="F8B156B4-FF8F-11E6-E6F1-BB7823D47319"
+						/>
+					</Object>
+					<ObjectOwner>
+						<uri
+							id="00505601-245D-A1ED-9EE1-840FDBBFD14A"
+						/>
+					</ObjectOwner>
+					<PathBegin>
+						<uri
+							id="00505601-245D-A1ED-9EE0-E227ED67514A"
+						/>
+					</PathBegin>
+					<PathEnd>
+						<uri
+							id="F8B156B4-FF8F-11E6-E6F1-BB7823D47319"
+						/>
+					</PathEnd>
+					<RootOwner>
+						<uri
+							id="00505601-245D-A1ED-9EE0-E227ED67514A"
+						/>
+					</RootOwner>
+				</PropertyObjectPath>
+			</ItemMemberPropertyPath>
+			<Layout/>
+			<LocalizableColumnLabel>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="38142845-0073-A1ED-B613-4269941F18F6">
+					<DocumentID>38142845-0073-A1ED-B613-4269941ED8F6</DocumentID>
+					<Name>38142845-0073-A1ED-B613-4269941ED8F6</Name>
+					<Description>38142845-0073-A1ED-B613-4269941ED8F6</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-04-11T09:51:30.552</CreationDate>
+					<Notes/>
+					<DeveloperText>Assignee</DeveloperText>
+					<Identifier>
+						<uri
+							id="38142845-0073-A1ED-B613-4269941F58F6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableColumnLabel>
+			<Property>
+				<uri
+					id="F8B156B4-FF8F-11E6-E6F1-BB7823D47319"
 				/>
 			</Property>
 			<WorklistDateFormat/>

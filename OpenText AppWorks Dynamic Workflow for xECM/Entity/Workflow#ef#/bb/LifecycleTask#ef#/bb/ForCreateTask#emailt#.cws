@@ -12,7 +12,11 @@
 	<Notes/>
 	<Bcc></Bcc>
 	<Body>Hi,&amp;nbsp;&lt;br /&gt;
-The &lt;a href=&quot;{taskInstanceURL()}&quot;&gt;task&lt;/a&gt;&amp;nbsp; &amp;nbsp;{item.Task.Subject} of the workflow&amp;nbsp;{item.DynamicWorkflow.DynamicWorkflowInstance.DisplayName}&amp;nbsp; has been created.</Body>
+The task&amp;nbsp;{item.Task.Subject} of the workflow&amp;nbsp;{item.DynamicWorkflow.DynamicWorkflowInstance.DisplayName}&amp;nbsp; has been created.&lt;br /&gt;
+&lt;br /&gt;
+For desktop :&amp;nbsp;&lt;a href=&quot;{taskInstanceURL()}&quot;&gt;{taskInstanceURL()}&lt;/a&gt;&lt;br /&gt;
+For Android : &lt;a href=&quot;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.AndroidUrl}/{item.Identity.ItemId1}&quot;&gt;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.AndroidUrl}/{item.Identity.ItemId1}&lt;/a&gt;&lt;br /&gt;
+For iOS :&lt;a href=&quot;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.IOSUrl}/{item.Identity.ItemId1}&quot;&gt; {config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.IOSUrl}/{item.Identity.ItemId1}&lt;/a&gt;</Body>
 	<CC></CC>
 	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
 	<IsVisibleToEndUser>true</IsVisibleToEndUser>

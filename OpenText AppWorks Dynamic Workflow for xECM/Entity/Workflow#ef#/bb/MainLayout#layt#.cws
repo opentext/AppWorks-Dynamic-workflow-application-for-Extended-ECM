@@ -49,7 +49,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A0DD14A">
 			<DocumentID>00505601-245D-A1ED-9EE1-05A69A0D914A</DocumentID>
 			<Name>Actions</Name>
@@ -76,7 +76,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A0D514A">
 			<DocumentID>00505601-245D-A1ED-9EE1-05A69A0D114A</DocumentID>
 			<Name>TaskPanel</Name>

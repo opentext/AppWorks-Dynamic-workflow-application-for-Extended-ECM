@@ -5160,6 +5160,7 @@
 			<CreatedBy>sysadmin</CreatedBy>
 			<CreationDate>2022-12-14T07:48:46.726</CreationDate>
 			<Notes/>
+			<UseTaskTypeForTaskName>false</UseTaskTypeForTaskName>
 			<Entity>
 				<uri
 					id="00505601-245D-A1ED-9EE0-EC2FE6C8D14A"
@@ -5775,6 +5776,27 @@
 										/>
 									</TaskTypeEnum>
 								</Mapping>
+								<Mapping
+									type="com.cordys.entity.buildingblocks.taskconfigurations.Mapping"
+									RuntimeDocumentID="38142845-0073-A1ED-B615-09612E9518F6">
+									<DocumentID>38142845-0073-A1ED-B615-09612E94D8F6</DocumentID>
+									<Name>Untitled Mapping (3)</Name>
+									<Description>Untitled Mapping (3)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-04-11T10:34:14.581</CreationDate>
+									<Notes/>
+									<TaskAction>
+										<uri
+											id="00505601-245D-A1ED-9EE0-EDAF2FE7914A"
+										/>
+									</TaskAction>
+									<TaskLayout/>
+									<TaskTypeEnum>
+										<uri
+											id="00505601-245D-A1ED-9EE0-EDAF2FF2914A"
+										/>
+									</TaskTypeEnum>
+								</Mapping>
 							</Mappings>
 						</MappingConfiguration>
 					</MappingConfiguration>
@@ -5966,6 +5988,7 @@
 					<EmailConfigurationName></EmailConfigurationName>
 					<EmailMessageFileType>eml</EmailMessageFileType>
 					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
 					<BuildingBlock>
 						<uri
 							id="84A93862-1D74-A1ED-A399-DA95CA35D603"
@@ -5977,6 +6000,8 @@
 					<ContentFolderLocationForIncomingAttachment/>
 					<ContentFolderLocationForSaveEmailTo/>
 					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
 					<EmailConfig>
 						<uri
 							id="84A93862-1D74-A1ED-A399-59D4BF05D603"
@@ -6841,40 +6866,6 @@
 										</ApplicableRight>
 										<ApplicableRight
 											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B1C5603">
-											<DocumentID>84A93862-1D74-A1ED-A3A0-28807B1C1603</DocumentID>
-											<Name>84A93862-1D74-A1ED-A3A0-28807B1C1603</Name>
-											<Description>84A93862-1D74-A1ED-A3A0-28807B1C1603</Description>
-											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-07T11:44:30.959</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="19226a1f-2938-40c5-9569-921ac53891c6"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
-											RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B1BD603">
-											<DocumentID>84A93862-1D74-A1ED-A3A0-28807B1B9603</DocumentID>
-											<Name>84A93862-1D74-A1ED-A3A0-28807B1B9603</Name>
-											<Description>84A93862-1D74-A1ED-A3A0-28807B1B9603</Description>
-											<CreatedBy>sysadmin</CreatedBy>
-											<CreationDate>2023-01-07T11:44:30.959</CreationDate>
-											<Notes/>
-											<revoked>false</revoked>
-											<condition/>
-											<right>
-												<uri
-													id="3ddf1b2c-db5b-49ff-8efc-ad5657a5ecd4"
-												/>
-											</right>
-										</ApplicableRight>
-										<ApplicableRight
-											type="com.cordys.acl.ApplicableRight"
 											RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B1B5603">
 											<DocumentID>84A93862-1D74-A1ED-A3A0-28807B1B1603</DocumentID>
 											<Name>84A93862-1D74-A1ED-A3A0-28807B1B1603</Name>
@@ -7358,6 +7349,88 @@
 											<right>
 												<uri
 													id="781880BC-9998-452B-9754-41EA7FEA0B74"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="38142845-0073-A1ED-B614-E2E63AB058F6">
+									<DocumentID>38142845-0073-A1ED-B614-E2E63AB018F6</DocumentID>
+									<Name>38142845-0073-A1ED-B614-E2E63AB018F6</Name>
+									<Description>38142845-0073-A1ED-B614-E2E63AB018F6</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-04-11T10:32:43.167</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="38142845-0073-A1ED-B614-3FF1D32458F6"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="38142845-0073-A1ED-B614-E2E63AAF98F6">
+											<DocumentID>38142845-0073-A1ED-B614-E2E63AAF58F6</DocumentID>
+											<Name>38142845-0073-A1ED-B614-E2E63AAF58F6</Name>
+											<Description>38142845-0073-A1ED-B614-E2E63AAF58F6</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-04-11T10:32:43.166</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="5FF78842-104F-486B-B288-C37947FD8401"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="38142845-0073-A1ED-B614-E2E63AAF18F6">
+									<DocumentID>38142845-0073-A1ED-B614-E2E63AAED8F6</DocumentID>
+									<Name>38142845-0073-A1ED-B614-E2E63AAED8F6</Name>
+									<Description>38142845-0073-A1ED-B614-E2E63AAED8F6</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-04-11T10:32:43.166</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="38142845-0073-A1ED-B614-8B118618D8F6"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="38142845-0073-A1ED-B615-09612E9618F6">
+											<DocumentID>38142845-0073-A1ED-B615-09612E95D8F6</DocumentID>
+											<Name>38142845-0073-A1ED-B615-09612E95D8F6</Name>
+											<Description>38142845-0073-A1ED-B615-09612E95D8F6</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-04-11T10:32:43.166</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="a6240594-3cc7-455f-a71a-94c13251b778"
 												/>
 											</right>
 										</ApplicableRight>

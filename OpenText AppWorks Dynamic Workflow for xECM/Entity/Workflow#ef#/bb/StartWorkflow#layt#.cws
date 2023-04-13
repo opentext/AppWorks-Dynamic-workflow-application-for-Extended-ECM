@@ -24,14 +24,32 @@
 			id="00505601-245D-A1ED-9EE0-B38BB463114A"
 		/>
 	</BuildingBlock>
-	<DisplayName/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="38142845-0073-A1ED-B613-149F5EFA58F6">
+			<DocumentID>38142845-0073-A1ED-B613-149F5EFA18F6</DocumentID>
+			<Name>38142845-0073-A1ED-B613-149F5EFA18F6</Name>
+			<Description>38142845-0073-A1ED-B613-149F5EFA18F6</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T09:41:13.433</CreationDate>
+			<Notes/>
+			<DeveloperText>Start Workflow</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-245D-A1ED-9EE4-F9F64245514A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
 	<FormAssociations/>
 	<Image/>
 	<LayoutAssociations/>
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A0B914A">
 			<DocumentID>00505601-245D-A1ED-9EE1-05A69A0B514A</DocumentID>
 			<Name>BusinessWorkspace</Name>
@@ -76,7 +94,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE4-F9F64247914A">
 			<DocumentID>00505601-245D-A1ED-9EE4-F9F64247514A</DocumentID>
 			<Name>StartWorkflow</Name>

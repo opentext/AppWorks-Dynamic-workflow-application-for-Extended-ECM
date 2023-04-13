@@ -30,6 +30,7 @@
 	<ShowTotalCountInList>false</ShowTotalCountInList>
 	<UserVisible>true</UserVisible>
 	<ActionBar/>
+	<AssignedFilterCriteria/>
 	<BuildingBlock>
 		<uri
 			id="00505601-245D-A1ED-9EE0-B38BB462914A"
@@ -144,7 +145,25 @@
 		</EntityExpression>
 	</FilterCriteria>
 	<Layout/>
-	<LocalizableCategoryLabel/>
+	<LocalizableCategoryLabel>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="38142845-0073-A1ED-B613-4269943418F6">
+			<DocumentID>38142845-0073-A1ED-B613-42699433D8F6</DocumentID>
+			<Name>38142845-0073-A1ED-B613-42699433D8F6</Name>
+			<Description>38142845-0073-A1ED-B613-42699433D8F6</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T09:42:06.661</CreationDate>
+			<Notes/>
+			<DeveloperText>Dynamic workflows</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-245D-A1ED-9EE0-EC2FE677114A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</LocalizableCategoryLabel>
 	<Original/>
 	<UsesAssociation>
 		<UsesAssociation

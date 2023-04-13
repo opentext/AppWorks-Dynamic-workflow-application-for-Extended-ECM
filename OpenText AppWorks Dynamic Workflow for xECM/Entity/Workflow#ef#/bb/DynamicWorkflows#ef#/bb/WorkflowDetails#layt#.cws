@@ -67,7 +67,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBCB914A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBCB514A</DocumentID>
 			<Name>LifecycleProgressPanel</Name>
@@ -94,7 +94,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBCB114A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBCAD14A</DocumentID>
 			<Name>Actions</Name>
@@ -125,7 +125,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBCA914A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBCA514A</DocumentID>
 			<Name>ViewWorkflow</Name>
@@ -170,7 +170,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBCA114A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBC9D14A</DocumentID>
 			<Name>Form</Name>
@@ -219,7 +219,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBC5D14A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBC5914A</DocumentID>
 			<Name>BusinessWorkspace</Name>
@@ -264,7 +264,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			typeVersion="9748e5f5-73a7-42e2-b679-08ee1ed05f4e"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBC4514A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBC4114A</DocumentID>
 			<Name>History</Name>
