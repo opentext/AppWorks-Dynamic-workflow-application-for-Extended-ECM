@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="38142845-0073-A1ED-B614-8B11862158F6">
+	<DocumentID>38142845-0073-A1ED-B614-8B11862118F6</DocumentID>
+	<Name>38142845-0073-A1ED-B614-8B11862118F6</Name>
+	<Description>Approval status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-11T10:26:00.385</CreationDate>
+	<Notes/>
+	<DefaultText>Approval status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B93114A"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="38142845-0073-A1ED-B614-8B11862198F6"
+		/>
+	</Translations>
+</TextIdentifier>

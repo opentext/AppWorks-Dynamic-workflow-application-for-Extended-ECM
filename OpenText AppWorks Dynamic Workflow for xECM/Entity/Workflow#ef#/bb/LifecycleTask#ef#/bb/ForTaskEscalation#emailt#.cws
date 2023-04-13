@@ -1,0 +1,62 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="38142845-0073-A1ED-B614-3FF1D32498F6">
+	<DocumentID>38142845-0073-A1ED-B614-3FF1D32458F6</DocumentID>
+	<Name>ForTaskEscalation</Name>
+	<Description>ForTaskEscalation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-11T10:18:18.705</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>&amp;nbsp;&lt;br /&gt;
+Hi,&lt;br /&gt;
+The task&amp;nbsp;{item.Task.Subject} has not been completed even after due date.&amp;nbsp;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.AutoTaskEscalationTime}&lt;br /&gt;
+&lt;br /&gt;
+For desktop :&amp;nbsp;&lt;a href=&quot;{taskInstanceURL()}&quot;&gt;{taskInstanceURL()}&lt;/a&gt;&lt;br /&gt;
+For Android : &lt;a href=&quot;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.AndroidUrl}/{item.Identity.ItemId1}&quot;&gt;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.AndroidUrl}/{item.Identity.ItemId1}&lt;/a&gt;&lt;br /&gt;
+For iOS :&lt;a href=&quot;{config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.IOSUrl}/{item.Identity.ItemId1}&quot;&gt; {config.OpenTextAppWorksDynamicWorkflowForXECM.Properties.IOSUrl}/{item.Identity.ItemId1}&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject></Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-245D-A1ED-9EE0-EC2FE6C2D14A"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="38142845-0073-A1ED-B614-3FF1D32298F6">
+			<DocumentID>38142845-0073-A1ED-B614-3FF1D32258F6</DocumentID>
+			<Name>38142845-0073-A1ED-B614-3FF1D32258F6</Name>
+			<Description>38142845-0073-A1ED-B614-3FF1D32258F6</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-11T10:18:18.705</CreationDate>
+			<Notes/>
+			<DeveloperText>ForTaskEscalation</DeveloperText>
+			<Identifier>
+				<uri
+					id="38142845-0073-A1ED-B614-3FF1D322D8F6"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole>
+		<uri
+			id="00505601-245D-A1ED-9EE1-5308C7D8914A"
+		/>
+	</ToRole>
+	<TypeDefinition/>
+</EmailTemplate>
