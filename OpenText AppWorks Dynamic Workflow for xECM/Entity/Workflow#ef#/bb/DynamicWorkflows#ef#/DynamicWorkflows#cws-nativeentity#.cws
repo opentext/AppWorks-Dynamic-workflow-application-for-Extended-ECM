@@ -614,6 +614,7 @@
 		</IdentityBuildingBlock>
 		<DynamicWorkflowInstanceBuildingBlock
 			type="com.cordys.entity.buildingblocks.dynamicworkflowinstance.DynamicWorkflowInstanceBuildingBlock"
+			typeVersion="11F023C3-2C40-46F6-92EC-92C6150356A5"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE0-EC2FE676514A">
 			<DocumentID>00505601-245D-A1ED-9EE0-EC2FE676114A</DocumentID>
 			<Name>DynamicWorkflowInstance</Name>
@@ -701,6 +702,16 @@
 					<Description>Terminate workflow</Description>
 					<CreatedBy>sysadmin</CreatedBy>
 					<CreationDate>2022-12-14T07:48:46.787</CreationDate>
+					<Notes/>
+				</DynamicWorkflowInstanceAction>
+				<DynamicWorkflowInstanceAction
+					type="com.cordys.entity.buildingblocks.dynamicworkflowinstance.DynamicWorkflowInstanceAction"
+					RuntimeDocumentID="D4CFF6A8F24B42678A4E0752E2C4F41B">
+					<DocumentID>695F6AF6-CD92-3857-9614-8F362FE96579</DocumentID>
+					<Name>SynchronizeWorkflow</Name>
+					<Description>Synchronize workflow</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-05-11T10:19:53.105</CreationDate>
 					<Notes/>
 				</DynamicWorkflowInstanceAction>
 			</OwnedActions>
@@ -2326,6 +2337,184 @@
 					<TypeDefinition>
 						<uri
 							id="00505601-245D-A1ED-9EE0-EC2FE6CF514A"
+						/>
+					</TypeDefinition>
+				</Property>
+				<Property
+					type="com.cordys.entity.core.structure.property.Property"
+					RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E9353050">
+					<DocumentID>4922F8C6-B2D9-3834-AEE4-CE1A10D0CB35</DocumentID>
+					<Name>SyncStatus</Name>
+					<Description>SyncStatus</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-05-11T10:19:54.911</CreationDate>
+					<Notes/>
+					<ConflictLevel>None</ConflictLevel>
+					<DataType>TextValueList</DataType>
+					<ExposeForReuse>false</ExposeForReuse>
+					<Expression></Expression>
+					<IsComputedProperty>false</IsComputedProperty>
+					<IsReadOnly>false</IsReadOnly>
+					<IsRequired>false</IsRequired>
+					<IsValueUnique>false</IsValueUnique>
+					<StaticProperty>93E5C5DF17E546DD999871FA13FD76A4</StaticProperty>
+					<Updatability>ReadOnly</Updatability>
+					<BuildingBlock/>
+					<DisplayName/>
+					<OwnedTypeDefinition>
+						<TextEnumPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.staticEnum.TextEnumPropertyDefinition"
+							typeVersion="005056C0-0008-11E6-ECD4-9ED50A5AFB27 4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E9357050">
+							<DocumentID>950C3516-B269-36E2-A8F2-8EBA623EF243</DocumentID>
+							<Name>950C3516-B269-36E2-A8F2-8EBA623EF243</Name>
+							<Description/>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-05-11T10:19:55.68</CreationDate>
+							<Notes/>
+							<DefaultValue></DefaultValue>
+							<IsEnumerationSorted>false</IsEnumerationSorted>
+							<Length>15</Length>
+							<lowerBound>1</lowerBound>
+							<upperBound>1</upperBound>
+							<DefaultEnum/>
+							<Enums/>
+							<Type/>
+							<ValuesDefinition>
+								<StaticTextEnumSet
+									type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticTextEnumSet"
+									RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E935B050">
+									<DocumentID>4C7C405D-2731-3E2B-A90C-087367776E2F</DocumentID>
+									<Name>4C7C405D-2731-3E2B-A90C-087367776E2F</Name>
+									<Description/>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-05-11T10:19:53.153</CreationDate>
+									<Notes/>
+									<DefaultEnum>
+										<uri
+											id="60C1B65D-C0C2-3478-99C8-1281F976219A"
+										/>
+									</DefaultEnum>
+									<Enums>
+										<StaticTextEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticTextEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1DB27"
+											RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E935F050">
+											<DocumentID>60C1B65D-C0C2-3478-99C8-1281F976219A</DocumentID>
+											<Name>60C1B65D-C0C2-3478-99C8-1281F976219A</Name>
+											<Description/>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-05-11T10:19:55.686</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>Processed</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="4C7C405D-2731-3E2B-A90C-087367776E2F"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E9363050">
+													<DocumentID>F13CABC8-07E8-3C07-905E-1493A4F53643</DocumentID>
+													<Name>F13CABC8-07E8-3C07-905E-1493A4F53643</Name>
+													<Description/>
+													<CreatedBy>sysadmin</CreatedBy>
+													<CreationDate>2023-05-11T10:19:54.101</CreationDate>
+													<Notes/>
+													<DeveloperText>Processed</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticTextEnum>
+										<StaticTextEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticTextEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1DB27"
+											RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E9367050">
+											<DocumentID>EC2799B7-B5FD-394F-AC03-283890610DD8</DocumentID>
+											<Name>EC2799B7-B5FD-394F-AC03-283890610DD8</Name>
+											<Description/>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-05-11T10:19:53.108</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>Pending</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="4C7C405D-2731-3E2B-A90C-087367776E2F"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E936B050">
+													<DocumentID>CBDF9A65-1FF7-3F07-BDFC-702DAB498F49</DocumentID>
+													<Name>CBDF9A65-1FF7-3F07-BDFC-702DAB498F49</Name>
+													<Description/>
+													<CreatedBy>sysadmin</CreatedBy>
+													<CreationDate>2023-05-11T10:19:54.903</CreationDate>
+													<Notes/>
+													<DeveloperText>Pending</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticTextEnum>
+										<StaticTextEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticTextEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1DB27"
+											RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E936F050">
+											<DocumentID>3CF22A44-80B3-35EB-96B6-E55C052F44B5</DocumentID>
+											<Name>3CF22A44-80B3-35EB-96B6-E55C052F44B5</Name>
+											<Description/>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-05-11T10:19:54.12</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>Failed</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="4C7C405D-2731-3E2B-A90C-087367776E2F"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="80B6553A-04AE-A1ED-BBF9-56E9E9373050">
+													<DocumentID>837E4342-B663-3C54-86A3-613FD7BA8A55</DocumentID>
+													<Name>837E4342-B663-3C54-86A3-613FD7BA8A55</Name>
+													<Description/>
+													<CreatedBy>sysadmin</CreatedBy>
+													<CreationDate>2023-05-11T10:19:54.889</CreationDate>
+													<Notes/>
+													<DeveloperText>Failed</DeveloperText>
+													<Identifier/>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticTextEnum>
+									</Enums>
+									<PropertyDefinition>
+										<uri
+											id="950C3516-B269-36E2-A8F2-8EBA623EF243"
+										/>
+									</PropertyDefinition>
+								</StaticTextEnumSet>
+							</ValuesDefinition>
+						</TextEnumPropertyDefinition>
+					</OwnedTypeDefinition>
+					<Tooltip/>
+					<TypeDefinition>
+						<uri
+							id="950C3516-B269-36E2-A8F2-8EBA623EF243"
 						/>
 					</TypeDefinition>
 				</Property>
