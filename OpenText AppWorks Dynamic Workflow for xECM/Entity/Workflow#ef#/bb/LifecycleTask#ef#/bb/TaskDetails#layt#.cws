@@ -9,7 +9,7 @@
 	<CreatedBy>sysadmin</CreatedBy>
 	<CreationDate>2022-12-14T08:40:52.142</CreationDate>
 	<Notes/>
-	<Definition>{&quot;layoutType&quot;:&quot;object&quot;,&quot;id&quot;:&quot;00505601-245D-A1ED-9EE2-832C61B1114A&quot;,&quot;layoutPanelType&quot;:&quot;FitToScreen&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:15,&quot;id&quot;:&quot;50a716a35c7cf69093f1551e0362a19f&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;28918f8ffa5e83aeb7bd07e7d1c1b326&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;f57a35714f94e6a7f8280cb93089d971&quot;,&quot;nodes&quot;:[]}]}]},{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:14,&quot;id&quot;:&quot;26a5a23dd542a6b27ffb07cb726c5a91&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;058328eff240ae7875e7483c4e664415&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;d2e93a872c3f446360cb4b948d0a73dc&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;8b3dce3766a4acd5a414659ae3418780&quot;,&quot;nodes&quot;:[]}]}]},{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:71,&quot;id&quot;:&quot;0e819f053b75cbacb2714cbdfe9b9265&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;column&quot;,&quot;panelId&quot;:null,&quot;size&quot;:68,&quot;id&quot;:&quot;e8169012d39fc992d04b211fb1bf6ebd&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;11e777998a57bf3f3ad83dbf9768171d&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;tabs&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;064517d7d6ae35752636bf80a3b05d29&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;5b79e155078ef30e90717ded51ba5577&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;e05bf04d233b34427a576a14236bc6f3&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;46a2d55820fc591eca3ef749b431ce0d&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;86d584772f160ab4ec7571365e0fe075&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;a67ce8acb7ebd1ca7c43a4382a9f61d9&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;00c87365c9bb87793c261b91ac0a362f&quot;,&quot;nodes&quot;:[]}]}]}]},{&quot;type&quot;:&quot;column&quot;,&quot;panelId&quot;:null,&quot;size&quot;:32,&quot;id&quot;:&quot;44b385af91ce17ba2814eec2217324db&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;005bf565336c3f6983ac709d80a8f100&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;tabs&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;2846b45e452ed2e92dd5c43b4f17a6d0&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;0c73a569a81c0b647cf8052c22c68cc1&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;9727d5ed0a745bebe406e94cbb3c93a5&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;de74b0c3793ac80d08258773ffc7a64e&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;13a9e5a69683179005019c40ccc16c9e&quot;,&quot;nodes&quot;:[]}]}]}]}]}]}</Definition>
+	<Definition>{&quot;layoutType&quot;:&quot;object&quot;,&quot;id&quot;:&quot;00505601-245D-A1ED-9EE2-832C61B1114A&quot;,&quot;layoutPanelType&quot;:&quot;FitToScreen&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:15,&quot;id&quot;:&quot;50a716a35c7cf69093f1551e0362a19f&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;28918f8ffa5e83aeb7bd07e7d1c1b326&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;272a86cfd02f5d66dbdeece5a894b49f&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;f57a35714f94e6a7f8280cb93089d971&quot;,&quot;nodes&quot;:[]}]}]},{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:12,&quot;id&quot;:&quot;26a5a23dd542a6b27ffb07cb726c5a91&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;058328eff240ae7875e7483c4e664415&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;d2e93a872c3f446360cb4b948d0a73dc&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;8b3dce3766a4acd5a414659ae3418780&quot;,&quot;nodes&quot;:[]}]}]},{&quot;type&quot;:&quot;row&quot;,&quot;panelId&quot;:null,&quot;size&quot;:73,&quot;id&quot;:&quot;0e819f053b75cbacb2714cbdfe9b9265&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;column&quot;,&quot;panelId&quot;:null,&quot;size&quot;:68,&quot;id&quot;:&quot;e8169012d39fc992d04b211fb1bf6ebd&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;11e777998a57bf3f3ad83dbf9768171d&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;tabs&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;064517d7d6ae35752636bf80a3b05d29&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;5b79e155078ef30e90717ded51ba5577&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;e05bf04d233b34427a576a14236bc6f3&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;46a2d55820fc591eca3ef749b431ce0d&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;86d584772f160ab4ec7571365e0fe075&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;a67ce8acb7ebd1ca7c43a4382a9f61d9&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;00c87365c9bb87793c261b91ac0a362f&quot;,&quot;nodes&quot;:[]}]}]}]},{&quot;type&quot;:&quot;column&quot;,&quot;panelId&quot;:null,&quot;size&quot;:32,&quot;id&quot;:&quot;ddfaf3043716155f8a559643cb8e40e6&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;bdfe959fd39b2b13849a86e0dd6d8534&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;tabs&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;dcb9472e177b474dda785d2932b9a2e5&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;5d2565ddde81cfee2d33be291372c08d&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;f3393b51600c659dc5c1f1975cca9cfc&quot;,&quot;nodes&quot;:[]},{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;de74b0c3793ac80d08258773ffc7a64e&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;32da3b36f6bc6302bf1cf10f446bf3e3&quot;,&quot;nodes&quot;:[]}]}]}]}]}]}</Definition>
 	<HelpURL></HelpURL>
 	<HideCreateAction>false</HideCreateAction>
 	<IncludeInCreate>false</IncludeInCreate>
@@ -307,51 +307,6 @@
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
 			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
-			RuntimeDocumentID="00505601-245D-A1ED-9EE2-D162981D914A">
-			<DocumentID>00505601-245D-A1ED-9EE2-D162981D514A</DocumentID>
-			<Name>BusinessAttachments</Name>
-			<Description/>
-			<CreatedBy>sysadmin</CreatedBy>
-			<CreationDate>2022-12-14T08:43:11.331</CreationDate>
-			<Notes/>
-			<Definition>{&quot;sourceId&quot;:&quot;A1C1C86DDA834D06916BDC17739F32A6&quot;,&quot;sourceName&quot;:&quot;BusinessAttachments&quot;,&quot;blockName&quot;:&quot;BusinessWorkspaceBuildingBlock&quot;,&quot;chrome&quot;:&quot;full&quot;,&quot;id&quot;:&quot;0c73a569a81c0b647cf8052c22c68cc1&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;itemPath&quot;:&quot;00505601245DA1ED9EE0EDAF2FC8514A&quot;,&quot;relationPath&quot;:&quot;ParentEntity&quot;,&quot;properties&quot;:[]}</Definition>
-			<DisplayName>Files</DisplayName>
-			<ModelerId>0c73a569a81c0b647cf8052c22c68cc1</ModelerId>
-			<SourceId>A1C1C86DDA834D06916BDC17739F32A6</SourceId>
-			<SourceName>BusinessAttachments</SourceName>
-			<ActionBarAssociation/>
-			<CustomScript/>
-			<FormAssociation/>
-			<IHubPanelConfiguration/>
-			<LayoutAssociation/>
-			<LocalizableDisplayName>
-				<TranslatableText
-					type="com.cordys.translation.TranslatableText"
-					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-					RuntimeDocumentID="00505601-245D-A1ED-9EE2-D162981C914A">
-					<DocumentID>00505601-245D-A1ED-9EE2-D162981C514A</DocumentID>
-					<Name>00505601-245D-A1ED-9EE2-D162981C514A</Name>
-					<Description>00505601-245D-A1ED-9EE2-D162981C514A</Description>
-					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2022-12-14T08:43:11.331</CreationDate>
-					<Notes/>
-					<DeveloperText>Files</DeveloperText>
-					<Identifier>
-						<uri
-							id="00505601-245D-A1ED-9EE1-05A69A09D14A"
-						/>
-					</Identifier>
-				</TranslatableText>
-			</LocalizableDisplayName>
-			<PanelCategories/>
-			<PanelIcon/>
-			<WorklistAssociation/>
-			<XFormAssociation/>
-			<filterCriteria/>
-		</LayoutPanel>
-		<LayoutPanel
-			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-D162981D114A">
 			<DocumentID>00505601-245D-A1ED-9EE2-D162981CD14A</DocumentID>
 			<Name>History</Name>
@@ -384,6 +339,51 @@
 					<Identifier>
 						<uri
 							id="00505601-245D-A1ED-9EE1-840FDBC2914A"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableDisplayName>
+			<PanelCategories/>
+			<PanelIcon/>
+			<WorklistAssociation/>
+			<XFormAssociation/>
+			<filterCriteria/>
+		</LayoutPanel>
+		<LayoutPanel
+			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
+			typeVersion="c8470923-66b0-4ff2-aeda-2313082203a3"
+			RuntimeDocumentID="00505601-E33D-A1ED-BD25-296B19172062">
+			<DocumentID>00505601-E33D-A1ED-BD25-296B1916E062</DocumentID>
+			<Name>BusinessWorkspace</Name>
+			<Description/>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-05-17T09:36:16.635</CreationDate>
+			<Notes/>
+			<Definition>{&quot;sourceId&quot;:&quot;5FAA02B730AD496EBF40317E5738E7BD&quot;,&quot;sourceName&quot;:&quot;BusinessWorkspace&quot;,&quot;blockName&quot;:&quot;BusinessWorkspaceBuildingBlock&quot;,&quot;chrome&quot;:&quot;full&quot;,&quot;id&quot;:&quot;5d2565ddde81cfee2d33be291372c08d&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;itemPath&quot;:&quot;00505601245DA1ED9EE0EDAF2FC8514A&quot;,&quot;relationPath&quot;:&quot;ParentEntity&quot;,&quot;properties&quot;:[]}</Definition>
+			<DisplayName>Files</DisplayName>
+			<ModelerId>5d2565ddde81cfee2d33be291372c08d</ModelerId>
+			<SourceId>5FAA02B730AD496EBF40317E5738E7BD</SourceId>
+			<SourceName>BusinessWorkspace</SourceName>
+			<ActionBarAssociation/>
+			<CustomScript/>
+			<FormAssociation/>
+			<IHubPanelConfiguration/>
+			<LayoutAssociation/>
+			<LocalizableDisplayName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="00505601-E33D-A1ED-BD25-296B1916A062">
+					<DocumentID>00505601-E33D-A1ED-BD25-296B19166062</DocumentID>
+					<Name>00505601-E33D-A1ED-BD25-296B19166062</Name>
+					<Description>00505601-E33D-A1ED-BD25-296B19166062</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-05-17T09:36:16.634</CreationDate>
+					<Notes/>
+					<DeveloperText>Files</DeveloperText>
+					<Identifier>
+						<uri
+							id="00505601-245D-A1ED-9EE1-05A69A09D14A"
 						/>
 					</Identifier>
 				</TranslatableText>
