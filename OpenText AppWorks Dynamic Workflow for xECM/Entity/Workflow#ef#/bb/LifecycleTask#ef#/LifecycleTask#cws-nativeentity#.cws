@@ -5115,6 +5115,44 @@
 												</TranslatableText>
 											</ValueDisplayName>
 										</StaticTextEnum>
+										<StaticTextEnum
+											type="com.cordys.entity.core.typesystem.primitives.staticEnum.StaticTextEnum"
+											typeVersion="005056C0-0008-11E6-ECD4-A00528D1DB27"
+											RuntimeDocumentID="84A93862-1D74-A1EE-823A-271CD62A1629">
+											<DocumentID>84A93862-1D74-A1EE-823A-271CD629D629</DocumentID>
+											<Name>Untitled Static Text Enum (6)</Name>
+											<Description>Untitled Static Text Enum (6)</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-06-12T06:50:01.218</CreationDate>
+											<Notes/>
+											<IsNullEntry>false</IsNullEntry>
+											<Value>Acknowledge</Value>
+											<Icon/>
+											<PropertyDefinition/>
+											<StaticEnumSet>
+												<uri
+													id="00505601-245D-A1ED-9EE0-EDAF2FC3914A"
+												/>
+											</StaticEnumSet>
+											<ValueDisplayName>
+												<TranslatableText
+													type="com.cordys.translation.TranslatableText"
+													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+													RuntimeDocumentID="84A93862-1D74-A1EE-823A-271CD6295629">
+													<DocumentID>84A93862-1D74-A1EE-823A-271CD6291629</DocumentID>
+													<Name>84A93862-1D74-A1EE-823A-271CD6291629</Name>
+													<Description>84A93862-1D74-A1EE-823A-271CD6291629</Description>
+													<CreatedBy>sysadmin</CreatedBy>
+													<CreationDate>2023-06-12T06:50:01.218</CreationDate>
+													<Notes/>
+													<DeveloperText>Acknowledge</DeveloperText>
+													<Identifier>
+														<uri	id="00505601-245D-A1ED-9EE0-EDAF2FE4914A"
+														/>
+													</Identifier>
+												</TranslatableText>
+											</ValueDisplayName>
+										</StaticTextEnum>
 									</Enums>
 									<PropertyDefinition>
 										<uri
@@ -5794,6 +5832,27 @@
 									<TaskTypeEnum>
 										<uri
 											id="00505601-245D-A1ED-9EE0-EDAF2FF2914A"
+										/>
+									</TaskTypeEnum>
+								</Mapping>
+								<Mapping
+									type="com.cordys.entity.buildingblocks.taskconfigurations.Mapping"
+									RuntimeDocumentID="84A93862-1D74-A1EE-823A-271CD628D629">
+									<DocumentID>84A93862-1D74-A1EE-823A-271CD6289629</DocumentID>
+									<Name>Untitled Mapping (4)</Name>
+									<Description>Untitled Mapping (4)</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-06-12T06:50:01.218</CreationDate>
+									<Notes/>
+									<TaskAction>
+										<uri
+											id="00505601-245D-A1ED-9EE0-EDAF2FE7914A"
+										/>
+									</TaskAction>
+									<TaskLayout/>
+									<TaskTypeEnum>
+										<uri
+											id="84A93862-1D74-A1EE-823A-271CD629D629"
 										/>
 									</TaskTypeEnum>
 								</Mapping>
