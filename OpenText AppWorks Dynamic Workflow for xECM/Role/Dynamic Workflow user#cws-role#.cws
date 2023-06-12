@@ -20,6 +20,9 @@
 		<uri
 			id="00505601-245D-A1ED-9EE1-05A69A04114A"
 		/>
+		<uri
+			id="00505601-245D-A1ED-9EE1-05A69A00914A"
+		/>
 	</Subroles>
 	<Superroles/>
 	<configuredTasks/>
