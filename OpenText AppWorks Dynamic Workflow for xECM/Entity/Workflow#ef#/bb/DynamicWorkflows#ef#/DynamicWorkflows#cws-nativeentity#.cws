@@ -614,7 +614,7 @@
 		</IdentityBuildingBlock>
 		<DynamicWorkflowInstanceBuildingBlock
 			type="com.cordys.entity.buildingblocks.dynamicworkflowinstance.DynamicWorkflowInstanceBuildingBlock"
-			typeVersion="11F023C3-2C40-46F6-92EC-92C6150356A5"
+			typeVersion="B0E98AAA-7DD8-4FF4-A466-FC028A940B77"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE0-EC2FE676514A">
 			<DocumentID>00505601-245D-A1ED-9EE0-EC2FE676114A</DocumentID>
 			<Name>DynamicWorkflowInstance</Name>
@@ -2359,7 +2359,11 @@
 					<IsValueUnique>false</IsValueUnique>
 					<StaticProperty>93E5C5DF17E546DD999871FA13FD76A4</StaticProperty>
 					<Updatability>ReadOnly</Updatability>
-					<BuildingBlock/>
+					<BuildingBlock>
+						<uri
+							id="00505601-245D-A1ED-9EE0-EC2FE676114A"
+						/>
+					</BuildingBlock>
 					<DisplayName/>
 					<OwnedTypeDefinition>
 						<TextEnumPropertyDefinition
@@ -3952,6 +3956,23 @@
 												/>
 											</right>
 										</ApplicableRight>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1EE-8238-93B9F0D05629">
+											<DocumentID>84A93862-1D74-A1EE-8238-93B9F0D01629</DocumentID>
+											<Name>84A93862-1D74-A1EE-8238-93B9F0D01629</Name>
+											<Description>84A93862-1D74-A1EE-8238-93B9F0D01629</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-06-12T05:35:56.539</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="9ABEBE26-FCE1-4D22-92E5-8ED02B01FAAD"
+												/>
+											</right>
+										</ApplicableRight>
 									</applicableRights>
 									<identity>
 										<uri
@@ -4321,6 +4342,47 @@
 											<right>
 												<uri
 													id="346f789b-1574-4d22-a2cb-3aeb7010e28e"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DAD14A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="84A93862-1D74-A1EE-8238-93B9F0D19629">
+									<DocumentID>84A93862-1D74-A1EE-8238-93B9F0D15629</DocumentID>
+									<Name>84A93862-1D74-A1EE-8238-93B9F0D15629</Name>
+									<Description>84A93862-1D74-A1EE-8238-93B9F0D15629</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-06-12T05:35:56.539</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="84A93862-1D74-A1EE-8238-93B9F0E21629"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1EE-8238-93B9F0D0D629">
+											<DocumentID>84A93862-1D74-A1EE-8238-93B9F0D09629</DocumentID>
+											<Name>84A93862-1D74-A1EE-8238-93B9F0D09629</Name>
+											<Description>84A93862-1D74-A1EE-8238-93B9F0D09629</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-06-12T05:35:56.54</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="a6240594-3cc7-455f-a71a-94c13251b778"
 												/>
 											</right>
 										</ApplicableRight>
@@ -6651,6 +6713,23 @@
 											<right>
 												<uri
 													id="636A7481-BDD1-4650-A7FD-E650675DFEFF"
+												/>
+											</right>
+										</ApplicableRight>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="84A93862-1D74-A1EE-8238-93B9F0CF5629">
+											<DocumentID>84A93862-1D74-A1EE-8238-93B9F0CF1629</DocumentID>
+											<Name>84A93862-1D74-A1EE-8238-93B9F0CF1629</Name>
+											<Description>84A93862-1D74-A1EE-8238-93B9F0CF1629</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-06-12T05:36:35.525</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="9ABEBE26-FCE1-4D22-92E5-8ED02B01FAAD"
 												/>
 											</right>
 										</ApplicableRight>
