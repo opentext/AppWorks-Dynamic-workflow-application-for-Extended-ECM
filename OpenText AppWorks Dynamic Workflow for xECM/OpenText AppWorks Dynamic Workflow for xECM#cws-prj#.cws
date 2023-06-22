@@ -65,7 +65,7 @@
 	<RuntimeQualifiedName/>
 	<SourceFolder>
 		<uri
-			id="38142845-0073-A1ED-B612-8496E6F118F6"
+			id="84A93862-139E-A1EE-83D1-C1064CB53057"
 			path="OpenText AppWorks Dynamic Workflow for xECM"
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>
@@ -97,6 +97,30 @@
 						<uri
 							id="00505601-245D-A1ED-9EE0-CAA23B94914A"
 							path="OpenText AppWorks Dynamic Workflow for xECM/en-US_00505601-245D-A1ED-9EE0-CAA23B94914A"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="00505601-245D-A1ED-9EE0-CAA23B93114A"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="84A93862-139E-A1EE-83D1-D55C7178B057">
+					<DocumentID>84A93862-139E-A1EE-83D1-D55C71787057</DocumentID>
+					<Name>de-DE</Name>
+					<Description>de-DE</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-06-20T08:52:46.69</CreationDate>
+					<Notes/>
+					<Language>German - Germany</Language>
+					<Texts>
+						<uri
+							id="84A93862-139E-A1EE-83D1-D55C7177F057"
+							path="OpenText AppWorks Dynamic Workflow for xECM/de-DE_84A93862-139E-A1EE-83D1-D55C7177F057"
 							type="com.cordys.cws.associations.MergeableAssociation"
 						/>
 					</Texts>

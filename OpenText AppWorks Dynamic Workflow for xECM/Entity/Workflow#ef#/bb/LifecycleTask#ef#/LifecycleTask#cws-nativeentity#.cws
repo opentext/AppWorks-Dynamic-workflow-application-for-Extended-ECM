@@ -6028,7 +6028,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="EA009434-A340-4D6E-AF58-3FDA-03E0EDA0"
 					RuntimeDocumentID="84A93862-1D74-A1ED-A399-DA95CA359603">
 					<DocumentID>84A93862-1D74-A1ED-A399-DA95CA355603</DocumentID>
 					<Name>Email</Name>
@@ -6066,6 +6066,11 @@
 							id="84A93862-1D74-A1ED-A399-59D4BF05D603"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="84A93862-1D74-A1ED-A39F-F011EFCB1603"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>

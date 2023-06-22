@@ -220,7 +220,25 @@
 		</EntityExpression>
 	</FilterCriteria>
 	<Layout/>
-	<LocalizableCategoryLabel/>
+	<LocalizableCategoryLabel>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="84A93862-139E-A1EE-83D1-CE03A366F057">
+			<DocumentID>84A93862-139E-A1EE-83D1-CE03A366B057</DocumentID>
+			<Name>84A93862-139E-A1EE-83D1-CE03A366B057</Name>
+			<Description>84A93862-139E-A1EE-83D1-CE03A366B057</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-06-20T08:49:07.582</CreationDate>
+			<Notes/>
+			<DeveloperText>Dynamic workflows</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-245D-A1ED-9EE0-EC2FE677114A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</LocalizableCategoryLabel>
 	<Original/>
 	<UsesAssociation>
 		<UsesAssociation

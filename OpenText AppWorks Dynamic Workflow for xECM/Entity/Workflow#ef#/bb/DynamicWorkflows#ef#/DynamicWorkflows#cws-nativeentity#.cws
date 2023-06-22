@@ -4777,7 +4777,7 @@
 			<Email>
 				<Email
 					type="com.cordys.entity.buildingblocks.email.Email"
-					typeVersion="70B3859A-6661-405A-915F-79AC52C92B04"
+					typeVersion="EA009434-A340-4D6E-AF58-3FDA-03E0EDA0"
 					RuntimeDocumentID="84A93862-1D74-A1ED-A398-5938B6A09603">
 					<DocumentID>84A93862-1D74-A1ED-A398-5938B6A05603</DocumentID>
 					<Name>Email</Name>
@@ -4815,6 +4815,11 @@
 							id="84A93862-1D74-A1ED-A399-59D4BF05D603"
 						/>
 					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="84A93862-1D74-A1ED-A399-59D4BF0A5603"
+						/>
+					</EmailContentLayout>
 				</Email>
 			</Email>
 			<Entity>

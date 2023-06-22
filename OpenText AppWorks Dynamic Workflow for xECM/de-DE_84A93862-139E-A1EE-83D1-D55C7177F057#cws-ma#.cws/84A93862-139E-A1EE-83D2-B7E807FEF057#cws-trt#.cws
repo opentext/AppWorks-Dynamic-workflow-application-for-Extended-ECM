@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A93862-139E-A1EE-83D2-B7E807FF3057">
+	<DocumentID>84A93862-139E-A1EE-83D2-B7E807FEF057</DocumentID>
+	<Name>84A93862-139E-A1EE-83D2-B7E807FEF057</Name>
+	<Description>Benutzer der Workflow-Instanz</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-20T09:15:31.963</CreationDate>
+	<Notes/>
+	<Text>Benutzer der Workflow-Instanz</Text>
+	<Language>
+		<uri
+			id="84A93862-139E-A1EE-83D1-D55C71787057"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A93862-1D74-A1ED-A399-8DA0EA1BD603"
+		/>
+	</TextIdentifier>
+</TranslatedText>
