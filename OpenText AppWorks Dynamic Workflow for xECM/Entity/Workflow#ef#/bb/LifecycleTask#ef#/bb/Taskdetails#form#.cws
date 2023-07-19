@@ -20,7 +20,7 @@
 	<FormComponents>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-1927AFA0514A">
 			<DocumentID>00505601-245D-A1ED-9EE2-1927AFA0114A</DocumentID>
 			<Name>FormsFragment</Name>
@@ -58,7 +58,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-1927AF99D14A">
 			<DocumentID>00505601-245D-A1ED-9EE2-1927AF99914A</DocumentID>
 			<Name>FormPropertyComponentNXXQR31QQJ7Y06P3EFB7HGRJFN9WEGUI</Name>
@@ -122,7 +122,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E931514A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E931114A</DocumentID>
 			<Name>FormPropertyComponentYQXMETEKYU1KDC1HQGQSYCIV55UNCWCL</Name>
@@ -186,7 +186,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E92D514A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E92D114A</DocumentID>
 			<Name>FormPropertyComponentBLUWPFX8BA5NS8L0ROS45JJ81AI4AE9J</Name>
@@ -250,7 +250,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E933514A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E933114A</DocumentID>
 			<Name>FormPropertyComponentHJNQ9UGP1EV051A5IOV94M1P83ISOKBT</Name>
@@ -314,7 +314,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E931D14A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E931914A</DocumentID>
 			<Name>FormPropertyComponentFNG69FSMBPVRLOUJLGA092NBB37L0X4J</Name>
@@ -325,7 +325,7 @@
 			<ComponentId>110</ComponentId>
 			<ComponentParentId>00505601-245D-A1ED-9EE2-1927AFA0114A</ComponentParentId>
 			<ComponentType>PropertyComponent</ComponentType>
-			<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;110&quot;,&quot;componentType&quot;:&quot;PropertyComponent&quot;,&quot;componentParentId&quot;:&quot;00505601-245D-A1ED-9EE2-1927AFA0114A&quot;,&quot;id&quot;:&quot;00505601-245D-A1ED-9EE2-3131E931914A&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;name&quot;:&quot;Priority&quot;,&quot;required&quot;:false,&quot;readOnly&quot;:false,&quot;context&quot;:&quot;Task.Priority&quot;,&quot;contextId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F3B914A.00505601-245D-A1ED-9EE0-EDAF2F86914A&quot;,&quot;entityElementId&quot;:&quot;00505601-245D-A1ED-9EE0-EC2FE6C8D14A&quot;,&quot;propertyElementId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F86914A&quot;,&quot;presentation&quot;:&quot;dataEntryTextOnly&quot;,&quot;dataType&quot;:&quot;Decimal&quot;,&quot;alternateText&quot;:&quot;&quot;,&quot;showLabel&quot;:true,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;textAlign\&quot;:\&quot;left\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;,\&quot;borderStyle\&quot;:\&quot;\&quot;,\&quot;borderWidth\&quot;:\&quot;\&quot;,\&quot;borderColor\&quot;:\&quot;\&quot;,\&quot;borderRadius\&quot;:\&quot;\&quot;,\&quot;backgroundColor\&quot;:\&quot;\&quot;,\&quot;label\&quot;:\&quot;Priority\&quot;,\&quot;showLabel\&quot;:true}&quot;,&quot;currencyOptions&quot;:&quot;{}&quot;,&quot;durationOptions&quot;:&quot;{}&quot;,&quot;formatOptions&quot;:&quot;{}&quot;,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;enableTypeAhead&quot;:false,&quot;enableAdhoc&quot;:false,&quot;isResized&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_110\&quot;,\&quot;left\&quot;:32,\&quot;top\&quot;:178,\&quot;right\&quot;:240,\&quot;bottom\&quot;:49,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:32,\&quot;topBasePx\&quot;:178,\&quot;widthBasePx\&quot;:240,\&quot;heightBasePx\&quot;:49,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:240,\&quot;componentWidthBasePx\&quot;:240,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:49,\&quot;widthGridColumn\&quot;:124,\&quot;style\&quot;:{\&quot;label_fontFamily\&quot;:\&quot;\\\&quot;OpenText Sans\\\&quot;,Helvetica,Arial,sans-serif\&quot;,\&quot;label_fontStyle\&quot;:\&quot;normal\&quot;,\&quot;label_fontWeight\&quot;:\&quot;400\&quot;,\&quot;label_fontSize\&quot;:\&quot;12px\&quot;,\&quot;label_textDecoration\&quot;:\&quot;none solid rgb(33, 37, 41)\&quot;,\&quot;label_color\&quot;:\&quot;#757575\&quot;,\&quot;label_backgroundColor\&quot;:\&quot;rgba(0,0,0,0)\&quot;}}&quot;}</Definition>
+			<Definition>{&quot;isContainer&quot;:false,&quot;componentId&quot;:&quot;110&quot;,&quot;componentType&quot;:&quot;PropertyComponent&quot;,&quot;componentParentId&quot;:&quot;00505601-245D-A1ED-9EE2-1927AFA0114A&quot;,&quot;id&quot;:&quot;00505601-245D-A1ED-9EE2-3131E931914A&quot;,&quot;categories&quot;:&quot;&quot;,&quot;showOnMobile&quot;:true,&quot;autoResize&quot;:false,&quot;name&quot;:&quot;Priority&quot;,&quot;required&quot;:false,&quot;readOnly&quot;:false,&quot;context&quot;:&quot;Task.Priority&quot;,&quot;contextId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F3B914A.00505601-245D-A1ED-9EE0-EDAF2F86914A&quot;,&quot;entityElementId&quot;:&quot;00505601-245D-A1ED-9EE0-EC2FE6C8D14A&quot;,&quot;propertyElementId&quot;:&quot;00505601-245D-A1ED-9EE0-EDAF2F86914A&quot;,&quot;presentation&quot;:&quot;dataEntryDropList&quot;,&quot;dataType&quot;:&quot;Integer&quot;,&quot;alternateText&quot;:&quot;&quot;,&quot;showLabel&quot;:true,&quot;presentationOptions&quot;:&quot;{\&quot;color\&quot;:\&quot;\&quot;,\&quot;fontWeight\&quot;:\&quot;\&quot;,\&quot;fontSize\&quot;:\&quot;\&quot;,\&quot;textDecoration\&quot;:\&quot;\&quot;,\&quot;textAlign\&quot;:\&quot;left\&quot;,\&quot;fontStyle\&quot;:\&quot;\&quot;,\&quot;fontFamily\&quot;:\&quot;\&quot;,\&quot;borderStyle\&quot;:\&quot;\&quot;,\&quot;borderWidth\&quot;:\&quot;\&quot;,\&quot;borderColor\&quot;:\&quot;\&quot;,\&quot;borderRadius\&quot;:\&quot;\&quot;,\&quot;backgroundColor\&quot;:\&quot;\&quot;,\&quot;label\&quot;:\&quot;Priority\&quot;,\&quot;showLabel\&quot;:true}&quot;,&quot;currencyOptions&quot;:&quot;{}&quot;,&quot;durationOptions&quot;:&quot;{}&quot;,&quot;formatOptions&quot;:&quot;{}&quot;,&quot;labelPosition&quot;:&quot;top&quot;,&quot;labelAlignment&quot;:&quot;left&quot;,&quot;isLeftResized&quot;:false,&quot;isRightResized&quot;:false,&quot;enableTypeAhead&quot;:false,&quot;enableAdhoc&quot;:false,&quot;isResized&quot;:false,&quot;layout&quot;:&quot;{\&quot;divId\&quot;:\&quot;component_110\&quot;,\&quot;left\&quot;:32,\&quot;top\&quot;:178,\&quot;right\&quot;:240,\&quot;bottom\&quot;:49,\&quot;overflow\&quot;:\&quot;hidden\&quot;,\&quot;leftBasePx\&quot;:32,\&quot;topBasePx\&quot;:178,\&quot;widthBasePx\&quot;:240,\&quot;heightBasePx\&quot;:49,\&quot;labelHeightBasePx\&quot;:25,\&quot;labelWidthBasePx\&quot;:240,\&quot;componentWidthBasePx\&quot;:240,\&quot;heightExtraForPadding\&quot;:0,\&quot;widthExtraForPadding\&quot;:0,\&quot;heightExtraForBorder\&quot;:0,\&quot;widthExtraForBorder\&quot;:0,\&quot;heightContainerUncollapsed\&quot;:49,\&quot;widthGridColumn\&quot;:124,\&quot;style\&quot;:{\&quot;label_fontFamily\&quot;:\&quot;\\\&quot;OpenText Sans\\\&quot;,Helvetica,Arial,sans-serif\&quot;,\&quot;label_fontStyle\&quot;:\&quot;normal\&quot;,\&quot;label_fontWeight\&quot;:\&quot;400\&quot;,\&quot;label_fontSize\&quot;:\&quot;12px\&quot;,\&quot;label_textDecoration\&quot;:\&quot;none solid rgb(33, 37, 41)\&quot;,\&quot;label_color\&quot;:\&quot;#757575\&quot;,\&quot;label_backgroundColor\&quot;:\&quot;rgba(0,0,0,0)\&quot;}}&quot;}</Definition>
 			<ElementType>FormPropertyComponent</ElementType>
 			<ElementTypeId>3EF4D668C77947318BB6936429E5526C</ElementTypeId>
 			<IsContainer>false</IsContainer>
@@ -360,7 +360,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E92E514A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E92E114A</DocumentID>
 			<Name>FormPropertyComponentQSDLDN0PMHWKKGLDJJH05FO9VKYXYFQA</Name>
@@ -406,7 +406,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-1927AF96D14A">
 			<DocumentID>00505601-245D-A1ED-9EE2-1927AF96914A</DocumentID>
 			<Name>FormPropertyComponentAM40A09W88NCI7PW8F2ME8OCCRK7UMDP</Name>
@@ -470,7 +470,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-1927AF9FD14A">
 			<DocumentID>00505601-245D-A1ED-9EE2-1927AF9F914A</DocumentID>
 			<Name>FormPropertyComponentHWQ6CUQ8FEGD0ISIG8W46BYD09H9U2BK</Name>
@@ -534,7 +534,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE2-3131E929914A">
 			<DocumentID>00505601-245D-A1ED-9EE2-3131E929514A</DocumentID>
 			<Name>FormPropertyComponentDWY2B718Y3BX40UE5MN03L94W32ICI4Q</Name>

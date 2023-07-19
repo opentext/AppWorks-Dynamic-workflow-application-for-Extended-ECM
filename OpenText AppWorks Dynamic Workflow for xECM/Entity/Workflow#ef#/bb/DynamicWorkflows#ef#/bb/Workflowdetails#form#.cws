@@ -20,7 +20,7 @@
 	<FormComponents>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-840FDBCED14A">
 			<DocumentID>00505601-245D-A1ED-9EE1-840FDBCE914A</DocumentID>
 			<Name>FormsFragment</Name>
@@ -58,7 +58,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-EF8A7DDA114A">
 			<DocumentID>00505601-245D-A1ED-9EE1-EF8A7DD9D14A</DocumentID>
 			<Name>FormPropertyComponentUFQPSXFF9KWMC59MWMST33NARG20L905</Name>
@@ -122,7 +122,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="84A93862-1D74-A1ED-AE06-3A3F0A31161D">
 			<DocumentID>84A93862-1D74-A1ED-AE06-3A3F0A30D61D</DocumentID>
 			<Name>FormPropertyComponentMW010S60AQD997GA0AO91D2C899S50L7</Name>
@@ -224,7 +224,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="38142845-0073-A1ED-B613-4269942AD8F6">
 			<DocumentID>38142845-0073-A1ED-B613-4269942A98F6</DocumentID>
 			<Name>FormPropertyComponentK27BAF62J01Y6R0H8NJ8YIDYMJCX8ME3</Name>
@@ -326,7 +326,7 @@
 		</FormComponent>
 		<FormComponent
 			type="com.cordys.entity.buildingblocks.form.FormComponent"
-			typeVersion="40826F30-D2C3-4AAE-AF90-98F74A6BCD48"
+			typeVersion="DF6DA7A6-8FB7-417A-8FCE-C5B615BC8308"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE1-EF8A7DD6114A">
 			<DocumentID>00505601-245D-A1ED-9EE1-EF8A7DD5D14A</DocumentID>
 			<Name>FormPropertyComponentHFYWRDOXJJOFPD5BNR236C7GNFWDBYNU</Name>

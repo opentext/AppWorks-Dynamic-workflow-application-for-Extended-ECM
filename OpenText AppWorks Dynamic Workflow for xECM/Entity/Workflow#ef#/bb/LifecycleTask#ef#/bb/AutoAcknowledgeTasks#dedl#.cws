@@ -23,7 +23,7 @@
 	<DeadlineDuration>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="38142845-0073-A1ED-B614-3FF1D33818F6">
 			<DocumentID>38142845-0073-A1ED-B614-3FF1D337D8F6</DocumentID>
 			<Name>DeadlineDurationExpresion</Name>
@@ -118,7 +118,7 @@
 			<MilestoneDuration>
 				<EntityExpression
 					type="com.cordys.entity.services.entityexpression.EntityExpression"
-					typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+					typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 					RuntimeDocumentID="38142845-0073-A1ED-B614-3FF1D33098F6">
 					<DocumentID>38142845-0073-A1ED-B614-3FF1D33058F6</DocumentID>
 					<Name>Exp381428450073A1EDB6143FF1D33118F6</Name>
@@ -198,7 +198,7 @@
 	<StartCondition>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="38142845-0073-A1ED-B614-2AEC6357D8F6">
 			<DocumentID>38142845-0073-A1ED-B614-2AEC635798F6</DocumentID>
 			<Name>StartConditionExpresion</Name>
@@ -343,7 +343,7 @@
 	<StopCondition>
 		<EntityExpression
 			type="com.cordys.entity.services.entityexpression.EntityExpression"
-			typeVersion="B533CA05-04B9-4F23-AF1D-A322ED02052E"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
 			RuntimeDocumentID="38142845-0073-A1ED-B614-3FF1D33898F6">
 			<DocumentID>38142845-0073-A1ED-B614-3FF1D33858F6</DocumentID>
 			<Name>StopConditionExpresion</Name>

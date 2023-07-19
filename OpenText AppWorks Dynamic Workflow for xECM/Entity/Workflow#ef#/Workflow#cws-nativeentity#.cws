@@ -541,6 +541,76 @@
 						/>
 					</TypeDefinition>
 				</Property>
+				<Property
+					type="com.cordys.entity.core.structure.property.Property"
+					RuntimeDocumentID="207918D6-AE29-A1EE-8983-773247915276">
+					<DocumentID>207918D6-AE29-A1EE-8983-773247911276</DocumentID>
+					<Name>MainDocuments</Name>
+					<Description>MainDocuments</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-07-19T08:26:53.364</CreationDate>
+					<Notes/>
+					<ConflictLevel>None</ConflictLevel>
+					<DataType>LongText</DataType>
+					<ExposeForReuse>false</ExposeForReuse>
+					<Expression></Expression>
+					<IsComputedProperty>false</IsComputedProperty>
+					<IsReadOnly>false</IsReadOnly>
+					<IsRequired>false</IsRequired>
+					<IsValueUnique>false</IsValueUnique>
+					<StaticProperty></StaticProperty>
+					<Updatability>ReadWrite</Updatability>
+					<BuildingBlock>
+						<uri
+							id="00505601-245D-A1ED-9EE0-E227ED6CD14A"
+						/>
+					</BuildingBlock>
+					<DisplayName>
+						<TranslatableText
+							type="com.cordys.translation.TranslatableText"
+							typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+							RuntimeDocumentID="207918D6-AE29-A1EE-8983-7732478ED276">
+							<DocumentID>207918D6-AE29-A1EE-8983-7732478E9276</DocumentID>
+							<Name>207918D6-AE29-A1EE-8983-7732478E9276</Name>
+							<Description>207918D6-AE29-A1EE-8983-7732478E9276</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-07-19T08:26:53.365</CreationDate>
+							<Notes/>
+							<DeveloperText>Main documents</DeveloperText>
+							<Identifier>
+								<uri
+									id="207918D6-AE29-A1EE-8983-7732478F1276"
+								/>
+							</Identifier>
+						</TranslatableText>
+					</DisplayName>
+					<OwnedTypeDefinition>
+						<LongTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.LongTextPropertyDefinition"
+							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="207918D6-AE29-A1EE-8983-7732478E5276">
+							<DocumentID>207918D6-AE29-A1EE-8983-7732478E1276</DocumentID>
+							<Name>207918D6-AE29-A1EE-8983-7732478E1276</Name>
+							<Description>207918D6-AE29-A1EE-8983-7732478E1276</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-07-19T08:26:53.364</CreationDate>
+							<Notes/>
+							<lowerBound>1</lowerBound>
+							<upperBound>1</upperBound>
+							<Type>
+								<uri
+									id="005056C0-0008-11E6-FAF9-068E75567F9D"
+								/>
+							</Type>
+						</LongTextPropertyDefinition>
+					</OwnedTypeDefinition>
+					<Tooltip/>
+					<TypeDefinition>
+						<uri
+							id="207918D6-AE29-A1EE-8983-7732478E1276"
+						/>
+					</TypeDefinition>
+				</Property>
 			</Properties>
 		</PropertyBuildingBlock>
 		<DynamicWorkflowBuildingBlock
@@ -1684,6 +1754,64 @@
 											<right>
 												<uri
 													id="D097F3FD-5848-4429-B900-94AF52A87DED"
+												/>
+											</right>
+										</ApplicableRight>
+									</applicableRights>
+									<identity>
+										<uri
+											id="00505601-245D-A1ED-9EE1-5308C7DD114A"
+										/>
+									</identity>
+									<rights/>
+								</ACE>
+								<ACE
+									type="com.cordys.acl.ACE"
+									typeVersion="F6CCAF77-15EB-4CB1-93EF-6099D6636D53"
+									RuntimeDocumentID="207918D6-AE29-A1EE-8983-7732478D5276">
+									<DocumentID>207918D6-AE29-A1EE-8983-7732478D1276</DocumentID>
+									<Name>207918D6-AE29-A1EE-8983-7732478D1276</Name>
+									<Description>207918D6-AE29-A1EE-8983-7732478D1276</Description>
+									<CreatedBy>sysadmin</CreatedBy>
+									<CreationDate>2023-07-19T08:27:03.918</CreationDate>
+									<Notes/>
+									<Model>
+										<uri
+											id="207918D6-AE29-A1EE-8983-773247911276"
+										/>
+									</Model>
+									<applicableRights>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="207918D6-AE29-A1EE-8983-7732478C9276">
+											<DocumentID>207918D6-AE29-A1EE-8983-7732478C5276</DocumentID>
+											<Name>207918D6-AE29-A1EE-8983-7732478C5276</Name>
+											<Description>207918D6-AE29-A1EE-8983-7732478C5276</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-07-19T08:27:03.918</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="313F0D45-E7A4-4FDD-8B0C-F14FA6049488"
+												/>
+											</right>
+										</ApplicableRight>
+										<ApplicableRight
+											type="com.cordys.acl.ApplicableRight"
+											RuntimeDocumentID="207918D6-AE29-A1EE-8983-7732478C1276">
+											<DocumentID>207918D6-AE29-A1EE-8983-7732478BD276</DocumentID>
+											<Name>207918D6-AE29-A1EE-8983-7732478BD276</Name>
+											<Description>207918D6-AE29-A1EE-8983-7732478BD276</Description>
+											<CreatedBy>sysadmin</CreatedBy>
+											<CreationDate>2023-07-19T08:27:03.918</CreationDate>
+											<Notes/>
+											<revoked>false</revoked>
+											<condition/>
+											<right>
+												<uri
+													id="5005A365-CB82-41C2-9A1F-5F28D15689CC"
 												/>
 											</right>
 										</ApplicableRight>
