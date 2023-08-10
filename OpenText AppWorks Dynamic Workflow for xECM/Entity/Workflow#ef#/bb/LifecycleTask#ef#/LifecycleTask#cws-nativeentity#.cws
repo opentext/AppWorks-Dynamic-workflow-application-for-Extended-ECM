@@ -7885,6 +7885,7 @@
 		</SecurityBuildingBlock>
 		<TrackingBuildingBlock
 			type="com.cordys.entity.buildingblocks.tracking.TrackingBuildingBlock"
+			typeVersion="E71CDA2C-7846-4CDA-BCB3-A75D3AD4A9FE"
 			RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B5DD603">
 			<DocumentID>84A93862-1D74-A1ED-A3A0-28807B5D9603</DocumentID>
 			<Name>Tracking</Name>
@@ -8178,10 +8179,65 @@
 						/>
 					</Target>
 				</Relationship>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="00505601-1330-A1EE-8DD8-5D4DA77AC134">
+					<DocumentID>6EC1D05F-59F4-3BA9-AF75-BF2D3316E3C7</DocumentID>
+					<Name>ReadBy</Name>
+					<Description>ReadBy</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-08-10T09:37:23.124</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>false</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToPeer</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<BuildingBlock>
+						<uri
+							id="84A93862-1D74-A1ED-A3A0-28807B5D9603"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties>
+						<uri
+							id="D8C0F9C5-CBBD-391D-A201-3674C6149403"
+						/>
+					</ForeignKeyProperties>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties>
+						<ReferringProperty
+							type="com.cordys.entity.core.structure.relationship.ReferringProperty"
+							RuntimeDocumentID="00505601-1330-A1EE-8DD8-5D4DA77B0134">
+							<DocumentID>D8C0F9C5-CBBD-391D-A201-3674C6149403</DocumentID>
+							<Name>ReadBy_Id</Name>
+							<Description>ReadBy_Id</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-08-10T09:37:23.129</CreationDate>
+							<Notes/>
+							<NameIsExternallyManaged>false</NameIsExternallyManaged>
+							<TargetProperty>
+								<uri
+									id="F8B156B4-FF8F-11E6-E6F1-BB7823D79319"
+								/>
+							</TargetProperty>
+						</ReferringProperty>
+					</ReferringProperties>
+					<Target>
+						<uri
+							id="F8B156E1-0371-11E6-E9CB-0FBF3334DBBF"
+						/>
+					</Target>
+				</Relationship>
 			</Relationships>
 			<Tracking>
 				<Tracking
 					type="com.cordys.entity.buildingblocks.tracking.Tracking"
+					typeVersion="EEA67FA8-049B-498D-A635-D0A9B48E2456"
 					RuntimeDocumentID="84A93862-1D74-A1ED-A3A0-28807B5D5603">
 					<DocumentID>84A93862-1D74-A1ED-A3A0-28807B5D1603</DocumentID>
 					<Name>Tracking</Name>
@@ -8190,6 +8246,7 @@
 					<CreationDate>2023-01-07T11:45:17.901</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
+					<ReadBy>false</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="84A93862-1D74-A1ED-A3A0-28807B5D9603"
