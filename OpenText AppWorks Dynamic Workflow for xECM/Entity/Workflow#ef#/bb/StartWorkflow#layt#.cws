@@ -58,7 +58,7 @@
 			<CreationDate>2022-12-14T07:55:18.999</CreationDate>
 			<Notes/>
 			<Definition>{&quot;sourceId&quot;:&quot;5FAA02B730AD496EBF40317E5738E7BD&quot;,&quot;sourceName&quot;:&quot;BusinessWorkspace&quot;,&quot;blockName&quot;:&quot;BusinessWorkspaceBuildingBlock&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;5fac2fb44c6ec0e3a1316a3e9597a50c&quot;,&quot;imageQualifiedName&quot;:null,&quot;properties&quot;:[]}</Definition>
-			<DisplayName>Files</DisplayName>
+			<DisplayName>Attachments</DisplayName>
 			<ModelerId>5fac2fb44c6ec0e3a1316a3e9597a50c</ModelerId>
 			<SourceId>5FAA02B730AD496EBF40317E5738E7BD</SourceId>
 			<SourceName>BusinessWorkspace</SourceName>
@@ -71,17 +71,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-					RuntimeDocumentID="00505601-245D-A1ED-9EE1-05A69A09914A">
-					<DocumentID>00505601-245D-A1ED-9EE1-05A69A09514A</DocumentID>
-					<Name>00505601-245D-A1ED-9EE1-05A69A09514A</Name>
-					<Description>00505601-245D-A1ED-9EE1-05A69A09514A</Description>
+					RuntimeDocumentID="00505601-1330-A1EE-90AC-E745BF6D0135">
+					<DocumentID>00505601-1330-A1EE-90AC-E745BF6CC135</DocumentID>
+					<Name>00505601-1330-A1EE-90AC-E745BF6CC135</Name>
+					<Description>00505601-1330-A1EE-90AC-E745BF6CC135</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2022-12-14T07:55:19.0</CreationDate>
+					<CreationDate>2023-08-24T19:23:10.694</CreationDate>
 					<Notes/>
-					<DeveloperText>Files</DeveloperText>
+					<DeveloperText>Attachments</DeveloperText>
 					<Identifier>
 						<uri
-							id="00505601-245D-A1ED-9EE1-05A69A09D14A"
+							id="00505601-1330-A1EE-90AC-DC8D0DA9C135"
 						/>
 					</Identifier>
 				</TranslatableText>

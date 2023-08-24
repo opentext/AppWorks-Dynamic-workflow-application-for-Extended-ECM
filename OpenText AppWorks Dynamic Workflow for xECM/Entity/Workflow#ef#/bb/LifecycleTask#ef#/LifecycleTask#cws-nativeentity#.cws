@@ -5316,6 +5316,7 @@
 		</TasktypesBuildingBlock>
 		<TaskConfigurationsBuildingBlock
 			type="com.cordys.entity.buildingblocks.taskconfigurations.TaskConfigurationsBuildingBlock"
+			typeVersion="5c1d77d9-97e3-40ec-b641-ec27d637b311"
 			RuntimeDocumentID="00505601-245D-A1ED-9EE0-EDAF2FF0D14A">
 			<DocumentID>00505601-245D-A1ED-9EE0-EDAF2FF0914A</DocumentID>
 			<Name>TaskConfiguration</Name>
@@ -5636,6 +5637,71 @@
 					<TypeDefinition>
 						<uri
 							id="00505601-245D-A1ED-9EE0-EDAF2FEA114A"
+						/>
+					</TypeDefinition>
+				</Property>
+				<Property
+					type="com.cordys.entity.core.structure.property.Property"
+					RuntimeDocumentID="00505601-1330-A1EE-90AC-A301D08E8135">
+					<DocumentID>AEDA95D2-5133-30D5-9727-F195342322D9</DocumentID>
+					<Name>NotifyUser</Name>
+					<Description>NotifyUser</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-08-24T19:16:01.795</CreationDate>
+					<Notes/>
+					<ConflictLevel>None</ConflictLevel>
+					<DataType>Integer</DataType>
+					<ExposeForReuse>false</ExposeForReuse>
+					<Expression></Expression>
+					<IsComputedProperty>false</IsComputedProperty>
+					<IsReadOnly>false</IsReadOnly>
+					<IsRequired>false</IsRequired>
+					<IsValueUnique>false</IsValueUnique>
+					<StaticProperty>cb74b132fe3e444bab79d96c90068627</StaticProperty>
+					<Updatability>ReadOnly</Updatability>
+					<BuildingBlock>
+						<uri
+							id="00505601-245D-A1ED-9EE0-EDAF2FF0914A"
+						/>
+					</BuildingBlock>
+					<DisplayName>
+						<TranslatableText
+							type="com.cordys.translation.TranslatableText"
+							typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+							RuntimeDocumentID="00505601-1330-A1EE-90AC-A301D08EC135">
+							<DocumentID>2EE914D8-E5C0-380A-B5FF-7C15A6457EE3</DocumentID>
+							<Name>2EE914D8-E5C0-380A-B5FF-7C15A6457EE3</Name>
+							<Description/>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-08-24T19:15:27.948</CreationDate>
+							<Notes/>
+							<DeveloperText>NotifyUser</DeveloperText>
+							<Identifier/>
+						</TranslatableText>
+					</DisplayName>
+					<OwnedTypeDefinition>
+						<IntegerPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.number.IntegerPropertyDefinition"
+							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="00505601-1330-A1EE-90AC-A301D08F4135">
+							<DocumentID>00505601-1330-A1EE-90AC-A301D08F0135</DocumentID>
+							<Name>00505601-1330-A1EE-90AC-A301D08F0135</Name>
+							<Description/>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2023-08-24T19:15:27.912</CreationDate>
+							<Notes/>
+							<DefaultValue></DefaultValue>
+							<Max></Max>
+							<Min></Min>
+							<lowerBound>1</lowerBound>
+							<upperBound>1</upperBound>
+							<Type/>
+						</IntegerPropertyDefinition>
+					</OwnedTypeDefinition>
+					<Tooltip/>
+					<TypeDefinition>
+						<uri
+							id="00505601-1330-A1EE-90AC-A301D08F0135"
 						/>
 					</TypeDefinition>
 				</Property>

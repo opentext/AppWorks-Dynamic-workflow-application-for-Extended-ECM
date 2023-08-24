@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-1330-A1EE-90AC-DC8D0DAA0135">
+	<DocumentID>00505601-1330-A1EE-90AC-DC8D0DA9C135</DocumentID>
+	<Name>00505601-1330-A1EE-90AC-DC8D0DA9C135</Name>
+	<Description>Attachments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-24T19:22:00.882</CreationDate>
+	<Notes/>
+	<DefaultText>Attachments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B93114A"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-1330-A1EE-90AC-DC8D0DAA4135"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -360,7 +360,7 @@
 			<CreationDate>2023-06-12T05:40:57.559</CreationDate>
 			<Notes/>
 			<Definition>{&quot;sourceId&quot;:&quot;5FAA02B730AD496EBF40317E5738E7BD&quot;,&quot;sourceName&quot;:&quot;BusinessWorkspace&quot;,&quot;blockName&quot;:&quot;BusinessWorkspaceBuildingBlock&quot;,&quot;chrome&quot;:&quot;full&quot;,&quot;id&quot;:&quot;cd2f957e2431e666a1da1703c0c88b19&quot;,&quot;imageQualifiedName&quot;:null,&quot;customScriptElementId&quot;:&quot;&quot;,&quot;customExtensions&quot;:&quot;&quot;,&quot;itemPath&quot;:&quot;00505601245DA1ED9EE0EDAF2FC8514A&quot;,&quot;relationPath&quot;:&quot;ParentEntity&quot;,&quot;properties&quot;:[]}</Definition>
-			<DisplayName>Files</DisplayName>
+			<DisplayName>Attachments</DisplayName>
 			<ModelerId>cd2f957e2431e666a1da1703c0c88b19</ModelerId>
 			<SourceId>5FAA02B730AD496EBF40317E5738E7BD</SourceId>
 			<SourceName>BusinessWorkspace</SourceName>
@@ -373,17 +373,17 @@
 				<TranslatableText
 					type="com.cordys.translation.TranslatableText"
 					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-					RuntimeDocumentID="84A93862-1D74-A1EE-8238-DDB079E71629">
-					<DocumentID>84A93862-1D74-A1EE-8238-DDB079E6D629</DocumentID>
-					<Name>84A93862-1D74-A1EE-8238-DDB079E6D629</Name>
-					<Description>84A93862-1D74-A1EE-8238-DDB079E6D629</Description>
+					RuntimeDocumentID="00505601-1330-A1EE-90AC-DC8D0DA98135">
+					<DocumentID>00505601-1330-A1EE-90AC-DC8D0DA94135</DocumentID>
+					<Name>00505601-1330-A1EE-90AC-DC8D0DA94135</Name>
+					<Description>00505601-1330-A1EE-90AC-DC8D0DA94135</Description>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-06-12T05:40:57.558</CreationDate>
+					<CreationDate>2023-08-24T19:22:00.882</CreationDate>
 					<Notes/>
-					<DeveloperText>Files</DeveloperText>
+					<DeveloperText>Attachments</DeveloperText>
 					<Identifier>
 						<uri
-							id="00505601-245D-A1ED-9EE1-05A69A09D14A"
+							id="00505601-1330-A1EE-90AC-DC8D0DA9C135"
 						/>
 					</Identifier>
 				</TranslatableText>
