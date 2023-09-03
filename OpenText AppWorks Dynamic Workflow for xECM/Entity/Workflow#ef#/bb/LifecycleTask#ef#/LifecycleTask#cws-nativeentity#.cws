@@ -5251,7 +5251,7 @@
 											<CreationDate>2023-06-12T06:50:01.218</CreationDate>
 											<Notes/>
 											<IsNullEntry>false</IsNullEntry>
-											<Value>Acknowledge</Value>
+											<Value>For acknowledge</Value>
 											<Icon/>
 											<PropertyDefinition/>
 											<StaticEnumSet>
@@ -5263,16 +5263,16 @@
 												<TranslatableText
 													type="com.cordys.translation.TranslatableText"
 													typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
-													RuntimeDocumentID="84A93862-1D74-A1EE-823A-271CD6295629">
-													<DocumentID>84A93862-1D74-A1EE-823A-271CD6291629</DocumentID>
-													<Name>84A93862-1D74-A1EE-823A-271CD6291629</Name>
-													<Description>84A93862-1D74-A1EE-823A-271CD6291629</Description>
+													RuntimeDocumentID="00505601-E339-A1EE-929F-379D1E3B6062">
+													<DocumentID>00505601-E339-A1EE-929F-379D1E3B2062</DocumentID>
+													<Name>00505601-E339-A1EE-929F-379D1E3B2062</Name>
+													<Description>00505601-E339-A1EE-929F-379D1E3B2062</Description>
 													<CreatedBy>sysadmin</CreatedBy>
-													<CreationDate>2023-06-12T06:50:01.218</CreationDate>
+													<CreationDate>2023-09-03T17:21:56.885</CreationDate>
 													<Notes/>
-													<DeveloperText>Acknowledge</DeveloperText>
+													<DeveloperText>For acknowledge</DeveloperText>
 													<Identifier>
-														<uri	id="00505601-245D-A1ED-9EE0-EDAF2FE4914A"
+														<uri	id="00505601-E339-A1EE-929F-379D1E3BA062"
 														/>
 													</Identifier>
 												</TranslatableText>
@@ -6037,7 +6037,7 @@
 									<Notes/>
 									<TaskAction>
 										<uri
-											id="00505601-245D-A1ED-9EE0-EDAF2FE7914A"
+											id="00505601-245D-A1ED-9EE0-EDAF2FE5914A"
 										/>
 									</TaskAction>
 									<TaskLayout/>
