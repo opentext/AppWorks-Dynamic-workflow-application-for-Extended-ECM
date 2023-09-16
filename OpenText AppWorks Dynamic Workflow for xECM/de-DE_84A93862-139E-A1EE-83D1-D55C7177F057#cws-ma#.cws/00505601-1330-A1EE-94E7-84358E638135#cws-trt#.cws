@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-1330-A1EE-94E7-84358E63C135">
+	<DocumentID>00505601-1330-A1EE-94E7-84358E638135</DocumentID>
+	<Name>00505601-1330-A1EE-94E7-84358E638135</Name>
+	<Description>Alle Workflows</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-15T08:13:55.167</CreationDate>
+	<Notes/>
+	<Text>Alle Workflows</Text>
+	<Language>
+		<uri
+			id="84A93862-139E-A1EE-83D1-D55C71787057"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="38142845-0073-A1ED-B613-4269942358F6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

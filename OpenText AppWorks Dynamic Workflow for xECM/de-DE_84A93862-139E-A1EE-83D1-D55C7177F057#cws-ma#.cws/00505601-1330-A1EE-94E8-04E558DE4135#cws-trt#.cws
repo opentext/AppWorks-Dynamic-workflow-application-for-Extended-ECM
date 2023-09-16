@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-1330-A1EE-94E8-04E558DE8135">
+	<DocumentID>00505601-1330-A1EE-94E8-04E558DE4135</DocumentID>
+	<Name>00505601-1330-A1EE-94E8-04E558DE4135</Name>
+	<Description>Nicht erfolgreiche Workflows</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-15T08:20:49.584</CreationDate>
+	<Notes/>
+	<Text>Nicht erfolgreiche Workflows</Text>
+	<Language>
+		<uri
+			id="84A93862-139E-A1EE-83D1-D55C71787057"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A93862-1D74-A1EE-8238-93B9F0DF9629"
+		/>
+	</TextIdentifier>
+</TranslatedText>

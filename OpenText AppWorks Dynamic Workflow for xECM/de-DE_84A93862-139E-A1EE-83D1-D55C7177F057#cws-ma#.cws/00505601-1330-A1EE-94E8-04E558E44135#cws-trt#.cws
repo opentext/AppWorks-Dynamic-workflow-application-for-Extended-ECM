@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-1330-A1EE-94E8-04E558E48135">
+	<DocumentID>00505601-1330-A1EE-94E8-04E558E44135</DocumentID>
+	<Name>00505601-1330-A1EE-94E8-04E558E44135</Name>
+	<Description>Aufgabe - alle Workflows inaktiver Benutzer</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-15T08:20:49.584</CreationDate>
+	<Notes/>
+	<Text>Aufgabe - alle Workflows inaktiver Benutzer</Text>
+	<Language>
+		<uri
+			id="84A93862-139E-A1EE-83D1-D55C71787057"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="38142845-0073-A1ED-B614-E2E63AC198F6"
+		/>
+	</TextIdentifier>
+</TranslatedText>
