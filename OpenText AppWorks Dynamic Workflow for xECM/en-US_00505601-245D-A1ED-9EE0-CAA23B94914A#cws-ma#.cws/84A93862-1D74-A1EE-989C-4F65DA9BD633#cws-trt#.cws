@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A93862-1D74-A1EE-989C-4F65DA9C1633">
+	<DocumentID>84A93862-1D74-A1EE-989C-4F65DA9BD633</DocumentID>
+	<Name>84A93862-1D74-A1EE-989C-4F65DA9BD633</Name>
+	<Description>Progress Bar</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-04T04:49:14.737</CreationDate>
+	<Notes/>
+	<Text>Progress Bar</Text>
+	<Language>
+		<uri
+			id="00505601-245D-A1ED-9EE0-CAA23B94114A"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A93862-1D74-A1EE-989C-4F65DA9B5633"
+		/>
+	</TextIdentifier>
+</TranslatedText>

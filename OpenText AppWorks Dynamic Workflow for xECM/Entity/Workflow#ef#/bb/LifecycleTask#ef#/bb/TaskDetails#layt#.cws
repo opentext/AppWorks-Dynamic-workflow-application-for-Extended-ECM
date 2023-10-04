@@ -150,7 +150,25 @@
 			<FormAssociation/>
 			<IHubPanelConfiguration/>
 			<LayoutAssociation/>
-			<LocalizableDisplayName/>
+			<LocalizableDisplayName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="84A93862-1D74-A1EE-989C-4F65DA9B1633">
+					<DocumentID>84A93862-1D74-A1EE-989C-4F65DA9AD633</DocumentID>
+					<Name>84A93862-1D74-A1EE-989C-4F65DA9AD633</Name>
+					<Description>84A93862-1D74-A1EE-989C-4F65DA9AD633</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2023-10-04T04:49:14.737</CreationDate>
+					<Notes/>
+					<DeveloperText>Progress Bar</DeveloperText>
+					<Identifier>
+						<uri
+							id="84A93862-1D74-A1EE-989C-4F65DA9B5633"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</LocalizableDisplayName>
 			<PanelCategories/>
 			<PanelIcon/>
 			<WorklistAssociation/>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A93862-1D74-A1EE-989C-4F65DA98D633">
+	<DocumentID>84A93862-1D74-A1EE-989C-4F65DA989633</DocumentID>
+	<Name>84A93862-1D74-A1EE-989C-4F65DA989633</Name>
+	<Description>Fortschrittsbalken</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-04T04:50:26.38</CreationDate>
+	<Notes/>
+	<Text>Fortschrittsbalken</Text>
+	<Language>
+		<uri
+			id="84A93862-139E-A1EE-83D1-D55C71787057"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A93862-1D74-A1EE-989C-4F65DA9B5633"
+		/>
+	</TextIdentifier>
+</TranslatedText>
