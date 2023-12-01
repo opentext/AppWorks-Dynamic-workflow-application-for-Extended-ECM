@@ -11,7 +11,7 @@
 	<CreationDate>2023-04-11T09:27:47.382</CreationDate>
 	<Notes/>
 	<BinaryReferenceInfo></BinaryReferenceInfo>
-	<CapArtifactHash>78ecb797be7eff4bf35e137afc0cd7d054e4037b</CapArtifactHash>
+	<CapArtifactHash>1861fb47d0e469e01879b4a079c191267b3d503a</CapArtifactHash>
 	<ISVPName></ISVPName>
 	<RuntimeKey>Method Set DynamicWorkflow Task</RuntimeKey>
 	<PackageInformation>
@@ -27,7 +27,7 @@
 			<ArtifactID>647F56DE-FE41-4E78-9BC6-93A473B10734</ArtifactID>
 			<CAPID>8eded4c8-2607-4029-80ce-778ad9cd8c98</CAPID>
 			<CAPName>OpenText Entity Runtime</CAPName>
-			<CAPVersion>ver23.2build3237</CAPVersion>
+			<CAPVersion>ver24.1build6597</CAPVersion>
 		</CordysBinaryReferenceCAPInfo>
 	</PackageInformation>
 	<RuntimeSchemaDefinitions/>
@@ -194,17 +194,17 @@
 			<PackageInformation>
 				<CordysBinaryReferenceCAPInfo
 					type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
-					RuntimeDocumentID="38142845-0073-A1ED-B612-C79DC08C98F6">
-					<DocumentID>38142845-0073-A1ED-B612-C79DC08C58F6</DocumentID>
-					<Name>38142845-0073-A1ED-B612-C79DC08C58F6</Name>
+					RuntimeDocumentID="00505601-1330-A1EE-A3FF-FE1638500135">
+					<DocumentID>00505601-1330-A1EE-A3FF-FE16384FC135</DocumentID>
+					<Name>00505601-1330-A1EE-A3FF-FE16384FC135</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-04-11T09:27:47.499</CreationDate>
+					<CreationDate>2023-12-01T04:13:34.599</CreationDate>
 					<Notes/>
 					<ArtifactID></ArtifactID>
 					<CAPID>8eded4c8-2607-4029-80ce-778ad9cd8c98</CAPID>
 					<CAPName>OpenText Entity Runtime</CAPName>
-					<CAPVersion>ver23.2build3237</CAPVersion>
+					<CAPVersion>ver24.1build6597</CAPVersion>
 				</CordysBinaryReferenceCAPInfo>
 			</PackageInformation>
 			<WebserviceInterface>
@@ -256,6 +256,10 @@
 										name="ItemId"
 										type="string"
 									/>
+									<element
+										name="Comments"
+										type="string"
+									/>
 								</sequence>
 							</complexType>
 							<element
@@ -266,7 +270,7 @@
 								name="ReassignWorkflowTaskResponse">
 								<sequence>
 									<element
-										name="isSuccess"
+										name="IsSuccess"
 										type="boolean"
 									/>
 								</sequence>
@@ -375,17 +379,17 @@
 			<PackageInformation>
 				<CordysBinaryReferenceCAPInfo
 					type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
-					RuntimeDocumentID="38142845-0073-A1ED-B612-C79DC08D98F6">
-					<DocumentID>38142845-0073-A1ED-B612-C79DC08D58F6</DocumentID>
-					<Name>38142845-0073-A1ED-B612-C79DC08D58F6</Name>
+					RuntimeDocumentID="00505601-1330-A1EE-A3FF-FE1638508135">
+					<DocumentID>00505601-1330-A1EE-A3FF-FE1638504135</DocumentID>
+					<Name>00505601-1330-A1EE-A3FF-FE1638504135</Name>
 					<Description/>
 					<CreatedBy>sysadmin</CreatedBy>
-					<CreationDate>2023-04-11T09:27:47.499</CreationDate>
+					<CreationDate>2023-12-01T04:13:34.599</CreationDate>
 					<Notes/>
 					<ArtifactID></ArtifactID>
 					<CAPID>8eded4c8-2607-4029-80ce-778ad9cd8c98</CAPID>
 					<CAPName>OpenText Entity Runtime</CAPName>
-					<CAPVersion>ver23.2build3237</CAPVersion>
+					<CAPVersion>ver24.1build6597</CAPVersion>
 				</CordysBinaryReferenceCAPInfo>
 			</PackageInformation>
 			<WebserviceInterface>
