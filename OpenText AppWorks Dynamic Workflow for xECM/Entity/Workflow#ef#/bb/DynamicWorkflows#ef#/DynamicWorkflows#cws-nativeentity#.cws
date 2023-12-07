@@ -5242,7 +5242,7 @@
 					<CreationDate>2023-01-07T08:32:16.926</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
-					<ReadBy>false</ReadBy>
+					<ReadBy>true</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="84A93862-1D74-A1ED-A399-67B9D2609603"

@@ -8312,7 +8312,7 @@
 					<CreationDate>2023-01-07T11:45:17.901</CreationDate>
 					<Notes/>
 					<ParentAlso>false</ParentAlso>
-					<ReadBy>false</ReadBy>
+					<ReadBy>true</ReadBy>
 					<BuildingBlock>
 						<uri
 							id="84A93862-1D74-A1ED-A3A0-28807B5D9603"
